@@ -1,0 +1,538 @@
+{
+ "2": {
+  "Bream": {
+   "p": 0.323,
+   "where": "Town/River",
+   "season": "summer",
+   "time": 2300,
+   "weather": "sun",
+   "casts": 3.1,
+   "game_min": 62,
+   "ok_seasons": [
+    "fall",
+    "spring",
+    "summer",
+    "winter"
+   ]
+  },
+  "Bullhead": {
+   "p": 0.213,
+   "where": "Backwoods/-",
+   "season": "summer",
+   "time": 2300,
+   "weather": "sun",
+   "casts": 4.7,
+   "game_min": 94,
+   "ok_seasons": [
+    "fall",
+    "spring",
+    "summer",
+    "winter"
+   ]
+  },
+  "Carp": {
+   "p": 0.431,
+   "where": "Woods/-",
+   "season": "winter",
+   "time": 600,
+   "weather": "sun",
+   "casts": 2.3,
+   "game_min": 46,
+   "ok_seasons": [
+    "fall",
+    "spring",
+    "summer",
+    "winter"
+   ]
+  },
+  "Catfish": {
+   "p": 0.303,
+   "where": "Woods/-",
+   "season": "winter",
+   "time": 2100,
+   "weather": "rain",
+   "casts": 3.3,
+   "game_min": 66,
+   "ok_seasons": [
+    "fall",
+    "spring",
+    "summer",
+    "winter"
+   ]
+  },
+  "Chub": {
+   "p": 0.32,
+   "where": "Forest/River",
+   "season": "spring",
+   "time": 600,
+   "weather": "rain",
+   "casts": 3.1,
+   "game_min": 62,
+   "ok_seasons": [
+    "fall",
+    "spring",
+    "summer",
+    "winter"
+   ]
+  },
+  "Eel": {
+   "p": 0.345,
+   "where": "Beach/Default",
+   "season": "fall",
+   "time": 2400,
+   "weather": "rain",
+   "casts": 2.9,
+   "game_min": 58,
+   "ok_seasons": [
+    "fall",
+    "spring"
+   ]
+  },
+  "Ghostfish": null,
+  "Largemouth Bass": {
+   "p": 0.205,
+   "where": "Backwoods/-",
+   "season": "spring",
+   "time": 1800,
+   "weather": "sun",
+   "casts": 4.9,
+   "game_min": 98,
+   "ok_seasons": [
+    "fall",
+    "spring",
+    "summer",
+    "winter"
+   ]
+  },
+  "Pufferfish": {
+   "p": 0.181,
+   "where": "Beach/Default",
+   "season": "summer",
+   "time": 1400,
+   "weather": "sun",
+   "casts": 5.5,
+   "game_min": 111,
+   "ok_seasons": [
+    "summer"
+   ]
+  },
+  "Red Snapper": {
+   "p": 0.266,
+   "where": "Beach/Default",
+   "season": "summer",
+   "time": 1500,
+   "weather": "rain",
+   "casts": 3.8,
+   "game_min": 75,
+   "ok_seasons": [
+    "fall",
+    "summer",
+    "winter"
+   ]
+  },
+  "Sandfish": {
+   "p": 0.558,
+   "where": "Desert/TopPond",
+   "season": "winter",
+   "time": 1600,
+   "weather": "sun",
+   "casts": 1.8,
+   "game_min": 36,
+   "ok_seasons": [
+    "fall",
+    "spring",
+    "summer",
+    "winter"
+   ]
+  },
+  "Sardine": {
+   "p": 0.419,
+   "where": "Beach/Default",
+   "season": "fall",
+   "time": 1500,
+   "weather": "sun",
+   "casts": 2.4,
+   "game_min": 48,
+   "ok_seasons": [
+    "fall",
+    "spring",
+    "winter"
+   ]
+  },
+  "Shad": {
+   "p": 0.25,
+   "where": "Town/River",
+   "season": "summer",
+   "time": 1600,
+   "weather": "rain",
+   "casts": 4.0,
+   "game_min": 80,
+   "ok_seasons": [
+    "fall",
+    "spring",
+    "summer"
+   ]
+  },
+  "Sturgeon": {
+   "p": 0.154,
+   "where": "Backwoods/-",
+   "season": "summer",
+   "time": 1600,
+   "weather": "rain",
+   "casts": 6.5,
+   "game_min": 130,
+   "ok_seasons": [
+    "summer",
+    "winter"
+   ]
+  },
+  "Sunfish": {
+   "p": 0.322,
+   "where": "Town/River",
+   "season": "spring",
+   "time": 1600,
+   "weather": "sun",
+   "casts": 3.1,
+   "game_min": 62,
+   "ok_seasons": [
+    "spring",
+    "summer"
+   ]
+  },
+  "Tiger Trout": {
+   "p": 0.132,
+   "where": "Town/River",
+   "season": "fall",
+   "time": 600,
+   "weather": "sun",
+   "casts": 7.6,
+   "game_min": 151,
+   "ok_seasons": [
+    "fall",
+    "winter"
+   ]
+  },
+  "Tilapia": {
+   "p": 0.218,
+   "where": "Beach/Default",
+   "season": "summer",
+   "time": 1300,
+   "weather": "sun",
+   "casts": 4.6,
+   "game_min": 92,
+   "ok_seasons": [
+    "fall",
+    "summer"
+   ]
+  },
+  "Tuna": {
+   "p": 0.113,
+   "where": "Beach/Default",
+   "season": "summer",
+   "time": 1700,
+   "weather": "sun",
+   "casts": 8.8,
+   "game_min": 177,
+   "ok_seasons": [
+    "summer",
+    "winter"
+   ]
+  },
+  "Walleye": {
+   "p": 0.285,
+   "where": "Forest/Lake",
+   "season": "fall",
+   "time": 1800,
+   "weather": "rain",
+   "casts": 3.5,
+   "game_min": 70,
+   "ok_seasons": [
+    "fall",
+    "winter"
+   ]
+  },
+  "Woodskip": {
+   "p": 0.188,
+   "where": "Woods/-",
+   "season": "winter",
+   "time": 1400,
+   "weather": "sun",
+   "casts": 5.3,
+   "game_min": 106,
+   "ok_seasons": [
+    "fall",
+    "spring",
+    "summer",
+    "winter"
+   ]
+  }
+ },
+ "6": {
+  "Bream": {
+   "p": 0.342,
+   "where": "Town/River",
+   "season": "summer",
+   "time": 2200,
+   "weather": "sun",
+   "casts": 2.9,
+   "game_min": 58,
+   "ok_seasons": [
+    "fall",
+    "spring",
+    "summer",
+    "winter"
+   ]
+  },
+  "Bullhead": {
+   "p": 0.223,
+   "where": "Backwoods/-",
+   "season": "spring",
+   "time": 1900,
+   "weather": "sun",
+   "casts": 4.5,
+   "game_min": 90,
+   "ok_seasons": [
+    "fall",
+    "spring",
+    "summer",
+    "winter"
+   ]
+  },
+  "Carp": {
+   "p": 0.477,
+   "where": "Woods/-",
+   "season": "winter",
+   "time": 600,
+   "weather": "sun",
+   "casts": 2.1,
+   "game_min": 42,
+   "ok_seasons": [
+    "fall",
+    "spring",
+    "summer",
+    "winter"
+   ]
+  },
+  "Catfish": {
+   "p": 0.327,
+   "where": "Woods/-",
+   "season": "winter",
+   "time": 1100,
+   "weather": "rain",
+   "casts": 3.1,
+   "game_min": 61,
+   "ok_seasons": [
+    "fall",
+    "spring",
+    "summer",
+    "winter"
+   ]
+  },
+  "Chub": {
+   "p": 0.337,
+   "where": "Forest/River",
+   "season": "spring",
+   "time": 700,
+   "weather": "sun",
+   "casts": 3.0,
+   "game_min": 59,
+   "ok_seasons": [
+    "fall",
+    "spring",
+    "summer",
+    "winter"
+   ]
+  },
+  "Eel": {
+   "p": 0.333,
+   "where": "Beach/Default",
+   "season": "fall",
+   "time": 2100,
+   "weather": "rain",
+   "casts": 3.0,
+   "game_min": 60,
+   "ok_seasons": [
+    "fall",
+    "spring"
+   ]
+  },
+  "Ghostfish": null,
+  "Largemouth Bass": {
+   "p": 0.215,
+   "where": "Backwoods/-",
+   "season": "fall",
+   "time": 600,
+   "weather": "sun",
+   "casts": 4.7,
+   "game_min": 93,
+   "ok_seasons": [
+    "fall",
+    "spring",
+    "summer",
+    "winter"
+   ]
+  },
+  "Pufferfish": {
+   "p": 0.195,
+   "where": "Beach/Default",
+   "season": "summer",
+   "time": 1400,
+   "weather": "sun",
+   "casts": 5.1,
+   "game_min": 102,
+   "ok_seasons": [
+    "summer"
+   ]
+  },
+  "Red Snapper": {
+   "p": 0.273,
+   "where": "Beach/Default",
+   "season": "summer",
+   "time": 1600,
+   "weather": "rain",
+   "casts": 3.7,
+   "game_min": 73,
+   "ok_seasons": [
+    "fall",
+    "summer",
+    "winter"
+   ]
+  },
+  "Sandfish": {
+   "p": 0.531,
+   "where": "Desert/TopPond",
+   "season": "winter",
+   "time": 1600,
+   "weather": "sun",
+   "casts": 1.9,
+   "game_min": 38,
+   "ok_seasons": [
+    "fall",
+    "spring",
+    "summer",
+    "winter"
+   ]
+  },
+  "Sardine": {
+   "p": 0.417,
+   "where": "Beach/Default",
+   "season": "fall",
+   "time": 1600,
+   "weather": "sun",
+   "casts": 2.4,
+   "game_min": 48,
+   "ok_seasons": [
+    "fall",
+    "spring",
+    "winter"
+   ]
+  },
+  "Shad": {
+   "p": 0.286,
+   "where": "Town/River",
+   "season": "summer",
+   "time": 1000,
+   "weather": "rain",
+   "casts": 3.5,
+   "game_min": 70,
+   "ok_seasons": [
+    "fall",
+    "spring",
+    "summer"
+   ]
+  },
+  "Sturgeon": {
+   "p": 0.165,
+   "where": "Backwoods/-",
+   "season": "summer",
+   "time": 1600,
+   "weather": "rain",
+   "casts": 6.0,
+   "game_min": 121,
+   "ok_seasons": [
+    "summer",
+    "winter"
+   ]
+  },
+  "Sunfish": {
+   "p": 0.329,
+   "where": "Town/River",
+   "season": "spring",
+   "time": 800,
+   "weather": "sun",
+   "casts": 3.0,
+   "game_min": 61,
+   "ok_seasons": [
+    "spring",
+    "summer"
+   ]
+  },
+  "Tiger Trout": {
+   "p": 0.155,
+   "where": "Forest/River",
+   "season": "fall",
+   "time": 1400,
+   "weather": "sun",
+   "casts": 6.4,
+   "game_min": 129,
+   "ok_seasons": [
+    "fall",
+    "winter"
+   ]
+  },
+  "Tilapia": {
+   "p": 0.229,
+   "where": "Beach/Default",
+   "season": "summer",
+   "time": 1100,
+   "weather": "sun",
+   "casts": 4.4,
+   "game_min": 87,
+   "ok_seasons": [
+    "fall",
+    "summer"
+   ]
+  },
+  "Tuna": {
+   "p": 0.142,
+   "where": "Beach/Default",
+   "season": "summer",
+   "time": 1700,
+   "weather": "sun",
+   "casts": 7.0,
+   "game_min": 141,
+   "ok_seasons": [
+    "summer",
+    "winter"
+   ]
+  },
+  "Walleye": {
+   "p": 0.301,
+   "where": "Forest/Lake",
+   "season": "fall",
+   "time": 1500,
+   "weather": "rain",
+   "casts": 3.3,
+   "game_min": 66,
+   "ok_seasons": [
+    "fall",
+    "winter"
+   ]
+  },
+  "Woodskip": {
+   "p": 0.227,
+   "where": "Woods/-",
+   "season": "winter",
+   "time": 900,
+   "weather": "sun",
+   "casts": 4.4,
+   "game_min": 88,
+   "ok_seasons": [
+    "fall",
+    "spring",
+    "summer",
+    "winter"
+   ]
+  }
+ }
+}

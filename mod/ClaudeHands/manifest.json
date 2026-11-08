@@ -1,0 +1,9 @@
+{
+  "Name": "ClaudeHands",
+  "Author": "Amer + Claude",
+  "Version": "0.1.0",
+  "Description": "Lets an AI agent play through a virtual controller only (no cheats). Refuses to run on any farm except the agent's own.",
+  "UniqueID": "md-amer.ClaudeHands",
+  "EntryDll": "ClaudeHands.dll",
+  "MinimumApiVersion": "4.0.0"
+}

@@ -1,0 +1,359 @@
+{
+ "speeds": "human",
+ "objective": "min CC day",
+ "best": {
+  "vault_first": false,
+  "reserve": 500,
+  "max_tiles": 40,
+  "sprinkler_goal": 40,
+  "money_spring": "Parsnip",
+  "money_summer": "Melon",
+  "money_fall": "Corn",
+  "fert": 1,
+  "fert_money": false,
+  "melon_q": 30,
+  "pumpkin_q": 20,
+  "corn_q": 12,
+  "mine_days": 1,
+  "mine_goal": 40,
+  "mine_threshold": 99,
+  "chickens": 6,
+  "crab_pots": 1,
+  "pig": true,
+  "kitchen": true,
+  "cave": "bats",
+  "order": "C-BC-A-DC-B-P",
+  "energy_reserve": 50,
+  "max_targets": 3
+ },
+ "best_val": {
+  "median": 97,
+  "p90": 149
+ },
+ "base_val": {
+  "median": 486,
+  "p90": 486
+ },
+ "top10": [
+  [
+   [
+    -121.25,
+    112,
+    149
+   ],
+   {
+    "vault_first": true,
+    "reserve": 200,
+    "max_tiles": 80,
+    "sprinkler_goal": 120,
+    "money_spring": "Parsnip",
+    "money_summer": "Melon",
+    "money_fall": "Corn",
+    "fert": 1,
+    "fert_money": false,
+    "melon_q": 30,
+    "pumpkin_q": 20,
+    "corn_q": 12,
+    "mine_days": 1,
+    "mine_goal": 40,
+    "mine_threshold": 99,
+    "chickens": 2,
+    "crab_pots": 3,
+    "pig": true,
+    "kitchen": true,
+    "cave": "bats",
+    "order": "C-BC-A-DC-B-P",
+    "energy_reserve": 50,
+    "max_targets": 3
+   }
+  ],
+  [
+   [
+    -129.5,
+    105,
+    203
+   ],
+   {
+    "vault_first": false,
+    "reserve": 500,
+    "max_tiles": 40,
+    "sprinkler_goal": 120,
+    "money_spring": "Potato",
+    "money_summer": "Melon",
+    "money_fall": "Cranberries",
+    "fert": 1,
+    "fert_money": false,
+    "melon_q": 30,
+    "pumpkin_q": 30,
+    "corn_q": 20,
+    "mine_days": 4,
+    "mine_goal": 40,
+    "mine_threshold": 7,
+    "chickens": 6,
+    "crab_pots": 3,
+    "pig": true,
+    "kitchen": false,
+    "cave": "bats",
+    "order": "C-BC-A-DC-B-P",
+    "energy_reserve": 50,
+    "max_targets": 3
+   }
+  ],
+  [
+   [
+    -164.25,
+    138,
+    243
+   ],
+   {
+    "vault_first": true,
+    "reserve": 500,
+    "max_tiles": 120,
+    "sprinkler_goal": 0,
+    "money_spring": "Parsnip",
+    "money_summer": "Hot Pepper",
+    "money_fall": "Pumpkin",
+    "fert": 0,
+    "fert_money": false,
+    "melon_q": 20,
+    "pumpkin_q": 10,
+    "corn_q": 20,
+    "mine_days": 1,
+    "mine_goal": 80,
+    "mine_threshold": 99,
+    "chickens": 2,
+    "crab_pots": 1,
+    "pig": false,
+    "kitchen": true,
+    "cave": "bats",
+    "order": "C-B-BC-DC-A-P",
+    "energy_reserve": 150,
+    "max_targets": 1
+   }
+  ],
+  [
+   [
+    -176.5,
+    138,
+    292
+   ],
+   {
+    "vault_first": true,
+    "reserve": 1000,
+    "max_tiles": 40,
+    "sprinkler_goal": 0,
+    "money_spring": "Potato",
+    "money_summer": "Hot Pepper",
+    "money_fall": "Corn",
+    "fert": 1,
+    "fert_money": false,
+    "melon_q": 45,
+    "pumpkin_q": 30,
+    "corn_q": 6,
+    "mine_days": 3,
+    "mine_goal": 80,
+    "mine_threshold": 99,
+    "chickens": 6,
+    "crab_pots": 0,
+    "pig": false,
+    "kitchen": true,
+    "cave": "bats",
+    "order": "C-A-BC-DC-B-P",
+    "energy_reserve": 100,
+    "max_targets": 1
+   }
+  ],
+  [
+   [
+    -207.75,
+    168,
+    327
+   ],
+   {
+    "vault_first": true,
+    "reserve": 200,
+    "max_tiles": 120,
+    "sprinkler_goal": 0,
+    "money_spring": "Potato",
+    "money_summer": "Hot Pepper",
+    "money_fall": "Pumpkin",
+    "fert": 1,
+    "fert_money": false,
+    "melon_q": 20,
+    "pumpkin_q": 10,
+    "corn_q": 20,
+    "mine_days": 3,
+    "mine_goal": 80,
+    "mine_threshold": 99,
+    "chickens": 2,
+    "crab_pots": 5,
+    "pig": false,
+    "kitchen": false,
+    "cave": "none",
+    "order": "C-A-BC-DC-B-P",
+    "energy_reserve": 50,
+    "max_targets": 1
+   }
+  ],
+  [
+   [
+    -209.0,
+    181,
+    293
+   ],
+   {
+    "vault_first": false,
+    "reserve": 1000,
+    "max_tiles": 160,
+    "sprinkler_goal": 200,
+    "money_spring": "Cauliflower",
+    "money_summer": "Corn",
+    "money_fall": "Pumpkin",
+    "fert": 0,
+    "fert_money": true,
+    "melon_q": 30,
+    "pumpkin_q": 20,
+    "corn_q": 6,
+    "mine_days": 2,
+    "mine_goal": 80,
+    "mine_threshold": 99,
+    "chickens": 2,
+    "crab_pots": 1,
+    "pig": false,
+    "kitchen": true,
+    "cave": "bats",
+    "order": "C-A-BC-DC-B-P",
+    "energy_reserve": 150,
+    "max_targets": 1
+   }
+  ],
+  [
+   [
+    -214.5,
+    124,
+    486
+   ],
+   {
+    "vault_first": true,
+    "reserve": 200,
+    "max_tiles": 40,
+    "sprinkler_goal": 0,
+    "money_spring": "Cauliflower",
+    "money_summer": "Melon",
+    "money_fall": "Pumpkin",
+    "fert": 0,
+    "fert_money": true,
+    "melon_q": 45,
+    "pumpkin_q": 30,
+    "corn_q": 6,
+    "mine_days": 3,
+    "mine_goal": 80,
+    "mine_threshold": 7,
+    "chickens": 6,
+    "crab_pots": 5,
+    "pig": true,
+    "kitchen": true,
+    "cave": "none",
+    "order": "C-B-BC-DC-A-P",
+    "energy_reserve": 50,
+    "max_targets": 1
+   }
+  ],
+  [
+   [
+    -231.75,
+    147,
+    486
+   ],
+   {
+    "vault_first": true,
+    "reserve": 200,
+    "max_tiles": 120,
+    "sprinkler_goal": 40,
+    "money_spring": "Parsnip",
+    "money_summer": "Blueberry",
+    "money_fall": "Pumpkin",
+    "fert": 1,
+    "fert_money": false,
+    "melon_q": 30,
+    "pumpkin_q": 30,
+    "corn_q": 20,
+    "mine_days": 2,
+    "mine_goal": 40,
+    "mine_threshold": 3,
+    "chickens": 2,
+    "crab_pots": 1,
+    "pig": true,
+    "kitchen": false,
+    "cave": "none",
+    "order": "A-C-BC-DC-B-P",
+    "energy_reserve": 150,
+    "max_targets": 1
+   }
+  ],
+  [
+   [
+    -233.25,
+    149,
+    486
+   ],
+   {
+    "vault_first": true,
+    "reserve": 200,
+    "max_tiles": 40,
+    "sprinkler_goal": 80,
+    "money_spring": "Parsnip",
+    "money_summer": "Blueberry",
+    "money_fall": "Corn",
+    "fert": 0,
+    "fert_money": false,
+    "melon_q": 45,
+    "pumpkin_q": 45,
+    "corn_q": 20,
+    "mine_days": 4,
+    "mine_goal": 120,
+    "mine_threshold": 99,
+    "chickens": 4,
+    "crab_pots": 5,
+    "pig": true,
+    "kitchen": false,
+    "cave": "none",
+    "order": "A-C-BC-DC-B-P",
+    "energy_reserve": 50,
+    "max_targets": 2
+   }
+  ],
+  [
+   [
+    -233.25,
+    149,
+    486
+   ],
+   {
+    "vault_first": true,
+    "reserve": 200,
+    "max_tiles": 160,
+    "sprinkler_goal": 120,
+    "money_spring": "Kale",
+    "money_summer": "Melon",
+    "money_fall": "Cranberries",
+    "fert": 1,
+    "fert_money": true,
+    "melon_q": 45,
+    "pumpkin_q": 45,
+    "corn_q": 6,
+    "mine_days": 2,
+    "mine_goal": 120,
+    "mine_threshold": 7,
+    "chickens": 6,
+    "crab_pots": 5,
+    "pig": true,
+    "kitchen": false,
+    "cave": "bats",
+    "order": "C-BC-A-DC-B-P",
+    "energy_reserve": 50,
+    "max_targets": 2
+   }
+  ]
+ ]
+}

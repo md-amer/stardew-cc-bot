@@ -1,0 +1,32 @@
+#!/bin/bash
+# stardew-cc: start the bot. First run creates a fresh save; later runs continue it.
+# Plays day after day until the Community Center is complete (agent/DONE), then closes the game.
+# Stop early: `stardew-cc stop` (finishes the current in-game day first).
+SELF="$(readlink -f "${BASH_SOURCE[0]}")"
+source "$(dirname "$SELF")/common.sh"
+cd "$ROOT"
+if [ "$1" = "stop" ]; then touch agent/STOP; touch agent/HALT; echo "Stopping after the current day."; exit 0; fi
+rm -f agent/HALT agent/STOP agent/PAUSE agent/ANIMALS agent/MINIMAL
+mkdir -p logs stats media
+SAVES="$ROOT/env/config/StardewValley/Saves"
+if ! ls -d "$SAVES"/Claude_* >/dev/null 2>&1; then
+  echo "No bot save yet: creating a new farm."
+  echo '{}' > agent/progress.json; rm -f agent/DONE
+  scripts/restart_game.sh --no-load || exit 1
+  (cd agent && python3 newgame.py) || { echo "new game creation failed"; exit 1; }
+else
+  scripts/restart_game.sh || exit 1
+fi
+fails=0
+while [ ! -f agent/DONE ] && [ ! -f agent/HALT ]; do
+  before=$(cd agent && python3 -c "import sv; s=sv.state(); print(s['year'], s['season'], s['day'])" 2>/dev/null)
+  scripts/play.sh 1000
+  [ -f agent/DONE ] || [ -f agent/HALT ] && break
+  after=$(cd agent && python3 -c "import sv; s=sv.state(); print(s['year'], s['season'], s['day'])" 2>/dev/null)
+  if [ "$before" = "$after" ]; then fails=$((fails+1)); else fails=0; fi
+  [ $fails -ge 5 ] && { echo "Stuck: 5 restarts without a new day. See logs/. Stopping."; break; }
+  echo "Day loop stopped; restarting the game from the last save (attempt $fails)."
+  scripts/restart_game.sh || break
+done
+[ -f agent/DONE ] && echo "Community Center complete! Logs in $ROOT/logs, stats in $ROOT/stats."
+pkill -f "^./StardewModdingAPI --mods-path $ROOT/env/Mods" || true

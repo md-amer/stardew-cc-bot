@@ -1,0 +1,4797 @@
+{
+ "forage": {
+  "Forest": {
+   "spring": {
+    "spawn_min": 1,
+    "spawn_max": 4,
+    "max_at_once": 6,
+    "p_item": {
+     "Wild Horseradish": 0.5,
+     "Dandelion": 0.5
+    }
+   },
+   "summer": {
+    "spawn_min": 1,
+    "spawn_max": 4,
+    "max_at_once": 6,
+    "p_item": {
+     "Sweet Pea": 0.6,
+     "Spice Berry": 0.4
+    }
+   },
+   "fall": {
+    "spawn_min": 1,
+    "spawn_max": 4,
+    "max_at_once": 6,
+    "p_item": {
+     "Common Mushroom": 0.5,
+     "Blackberry": 0.5
+    }
+   },
+   "winter": {
+    "spawn_min": 1,
+    "spawn_max": 4,
+    "max_at_once": 6,
+    "p_item": {
+     "Crocus": 0.3913,
+     "Crystal Fruit": 0.3913,
+     "Holly": 0.2174
+    }
+   }
+  },
+  "Town": {
+   "spring": {
+    "spawn_min": 1,
+    "spawn_max": 4,
+    "max_at_once": 6,
+    "p_item": {
+     "Daffodil": 1.0
+    }
+   },
+   "summer": {
+    "spawn_min": 1,
+    "spawn_max": 4,
+    "max_at_once": 6,
+    "p_item": {
+     "Sweet Pea": 1.0
+    }
+   },
+   "fall": {
+    "spawn_min": 1,
+    "spawn_max": 4,
+    "max_at_once": 6,
+    "p_item": {
+     "Blackberry": 1.0
+    }
+   },
+   "winter": {
+    "spawn_min": 1,
+    "spawn_max": 4,
+    "max_at_once": 6,
+    "p_item": {
+     "Crocus": 0.5385,
+     "Holly": 0.3846,
+     "Crystal Fruit": 0.0769
+    }
+   }
+  },
+  "Mountain": {
+   "spring": {
+    "spawn_min": 1,
+    "spawn_max": 4,
+    "max_at_once": 6,
+    "p_item": {
+     "Leek": 0.5833,
+     "Wild Horseradish": 0.4167
+    }
+   },
+   "summer": {
+    "spawn_min": 1,
+    "spawn_max": 4,
+    "max_at_once": 6,
+    "p_item": {
+     "Grape": 0.6154,
+     "Spice Berry": 0.3846
+    }
+   },
+   "fall": {
+    "spawn_min": 1,
+    "spawn_max": 4,
+    "max_at_once": 6,
+    "p_item": {
+     "Hazelnut": 0.5294,
+     "Common Mushroom": 0.2353,
+     "Wild Plum": 0.2353
+    }
+   },
+   "winter": {
+    "spawn_min": 1,
+    "spawn_max": 4,
+    "max_at_once": 6,
+    "p_item": {
+     "Crocus": 0.4,
+     "Crystal Fruit": 0.3778,
+     "Holly": 0.2222
+    }
+   }
+  },
+  "Beach": {
+   "spring": {
+    "spawn_min": 1,
+    "spawn_max": 4,
+    "max_at_once": 6,
+    "p_item": {
+     "Clam": 0.5625,
+     "Mussel": 0.1875,
+     "Oyster": 0.1875,
+     "Cockle": 0.0625
+    }
+   },
+   "summer": {
+    "spawn_min": 1,
+    "spawn_max": 4,
+    "max_at_once": 6,
+    "p_item": {
+     "Clam": 0.4286,
+     "Rainbow Shell": 0.2381,
+     "Mussel": 0.1429,
+     "Oyster": 0.1429,
+     "Cockle": 0.0476
+    }
+   },
+   "fall": {
+    "spawn_min": 1,
+    "spawn_max": 4,
+    "max_at_once": 6,
+    "p_item": {
+     "Clam": 0.5625,
+     "Mussel": 0.1875,
+     "Oyster": 0.1875,
+     "Cockle": 0.0625
+    }
+   },
+   "winter": {
+    "spawn_min": 1,
+    "spawn_max": 4,
+    "max_at_once": 6,
+    "p_item": {
+     "Clam": 0.4,
+     "Nautilus Shell": 0.2462,
+     "Mussel": 0.1538,
+     "Oyster": 0.1538,
+     "Cockle": 0.0462
+    }
+   }
+  },
+  "BusStop": {
+   "spring": {
+    "spawn_min": 1,
+    "spawn_max": 4,
+    "max_at_once": 6,
+    "p_item": {
+     "Daffodil": 0.45,
+     "Dandelion": 0.35,
+     "Leek": 0.2
+    }
+   },
+   "summer": {
+    "spawn_min": 1,
+    "spawn_max": 4,
+    "max_at_once": 6,
+    "p_item": {
+     "Sweet Pea": 0.4667,
+     "Spice Berry": 0.2667,
+     "Grape": 0.2667
+    }
+   },
+   "fall": {
+    "spawn_min": 1,
+    "spawn_max": 4,
+    "max_at_once": 6,
+    "p_item": {
+     "Wild Plum": 0.6,
+     "Hazelnut": 0.4
+    }
+   },
+   "winter": {
+    "spawn_min": 1,
+    "spawn_max": 4,
+    "max_at_once": 6,
+    "p_item": {
+     "Crocus": 0.4196,
+     "Holly": 0.3497,
+     "Crystal Fruit": 0.2308
+    }
+   }
+  },
+  "Backwoods": {
+   "spring": {
+    "spawn_min": 1,
+    "spawn_max": 4,
+    "max_at_once": 6,
+    "p_item": {
+     "Leek": 0.5833,
+     "Wild Horseradish": 0.4167
+    }
+   },
+   "summer": {
+    "spawn_min": 1,
+    "spawn_max": 4,
+    "max_at_once": 6,
+    "p_item": {
+     "Grape": 0.6154,
+     "Spice Berry": 0.3846
+    }
+   },
+   "fall": {
+    "spawn_min": 1,
+    "spawn_max": 4,
+    "max_at_once": 6,
+    "p_item": {
+     "Hazelnut": 0.5294,
+     "Common Mushroom": 0.2353,
+     "Wild Plum": 0.2353
+    }
+   },
+   "winter": {
+    "spawn_min": 1,
+    "spawn_max": 4,
+    "max_at_once": 6,
+    "p_item": {
+     "Holly": 0.4348,
+     "Crocus": 0.3478,
+     "Crystal Fruit": 0.2174
+    }
+   }
+  },
+  "Railroad": {
+   "spring": {
+    "spawn_min": 1,
+    "spawn_max": 4,
+    "max_at_once": 6,
+    "p_item": {
+     "Daffodil": 0.45,
+     "Dandelion": 0.35,
+     "Leek": 0.2
+    }
+   },
+   "summer": {
+    "spawn_min": 1,
+    "spawn_max": 4,
+    "max_at_once": 6,
+    "p_item": {
+     "Sweet Pea": 0.4667,
+     "Spice Berry": 0.2667,
+     "Grape": 0.2667
+    }
+   },
+   "fall": {
+    "spawn_min": 1,
+    "spawn_max": 4,
+    "max_at_once": 6,
+    "p_item": {
+     "Wild Plum": 0.375,
+     "Blackberry": 0.375,
+     "Hazelnut": 0.25
+    }
+   },
+   "winter": {
+    "spawn_min": 1,
+    "spawn_max": 4,
+    "max_at_once": 6,
+    "p_item": {
+     "Crystal Fruit": 0.5,
+     "Crocus": 0.5
+    }
+   }
+  },
+  "Woods": {
+   "spring": {
+    "spawn_min": 1,
+    "spawn_max": 4,
+    "max_at_once": 6,
+    "p_item": {
+     "Wild Horseradish": 0.5161,
+     "Morel": 0.3226,
+     "Common Mushroom": 0.1613
+    }
+   },
+   "summer": {
+    "spawn_min": 1,
+    "spawn_max": 4,
+    "max_at_once": 6,
+    "p_item": {
+     "Fiddlehead Fern": 0.7826,
+     "Red Mushroom": 0.2174
+    }
+   },
+   "fall": {
+    "spawn_min": 1,
+    "spawn_max": 4,
+    "max_at_once": 6,
+    "p_item": {
+     "Common Mushroom": 0.4615,
+     "Chanterelle": 0.3846,
+     "Red Mushroom": 0.1538
+    }
+   },
+   "winter": {
+    "spawn_min": 1,
+    "spawn_max": 4,
+    "max_at_once": 6,
+    "p_item": {
+     "Holly": 1.0
+    }
+   }
+  },
+  "Desert": {
+   "spring": {
+    "spawn_min": 1,
+    "spawn_max": 4,
+    "max_at_once": 6,
+    "p_item": {
+     "Coconut": 0.5,
+     "Cactus Fruit": 0.5
+    }
+   },
+   "summer": {
+    "spawn_min": 1,
+    "spawn_max": 4,
+    "max_at_once": 6,
+    "p_item": {
+     "Coconut": 0.5,
+     "Cactus Fruit": 0.5
+    }
+   },
+   "fall": {
+    "spawn_min": 1,
+    "spawn_max": 4,
+    "max_at_once": 6,
+    "p_item": {
+     "Coconut": 0.5,
+     "Cactus Fruit": 0.5
+    }
+   },
+   "winter": {
+    "spawn_min": 1,
+    "spawn_max": 4,
+    "max_at_once": 6,
+    "p_item": {
+     "Coconut": 0.5,
+     "Cactus Fruit": 0.5
+    }
+   }
+  }
+ },
+ "crab_pot": {
+  "ocean/none": {
+   "Lobster": 0.04,
+   "Crab": 0.076,
+   "Oyster": 0.1026,
+   "Clam": 0.0872,
+   "Shrimp": 0.0988,
+   "Cockle": 0.1186,
+   "Mussel": 0.0969,
+   "junk": 0.3799
+  },
+  "ocean/deluxe": {
+   "Lobster": 0.045,
+   "Crab": 0.0855,
+   "Oyster": 0.1154,
+   "Clam": 0.0981,
+   "Shrimp": 0.1112,
+   "Cockle": 0.1334,
+   "Mussel": 0.109,
+   "junk": 0.3024
+  },
+  "freshwater/none": {
+   "Snail": 0.2,
+   "Crayfish": 0.21,
+   "Periwinkle": 0.2145,
+   "junk": 0.3755
+  },
+  "freshwater/deluxe": {
+   "Snail": 0.225,
+   "Crayfish": 0.2362,
+   "Periwinkle": 0.2413,
+   "junk": 0.2974
+  }
+ },
+ "cart": {
+  "pool": 334,
+  "p_item_per_visit": 0.0299,
+  "p_item_per_season_8_visits": 0.216,
+  "price_rule": "max(U{100..1000}, base x U{3,4,5})",
+  "items": {
+   "Wild Horseradish": 50,
+   "Daffodil": 30,
+   "Leek": 60,
+   "Dandelion": 40,
+   "Parsnip": 35,
+   "Cave Carrot": 25,
+   "Coconut": 100,
+   "Cactus Fruit": 75,
+   "Sap": 2,
+   "Pufferfish": 200,
+   "Anchovy": 30,
+   "Tuna": 100,
+   "Sardine": 40,
+   "Bream": 45,
+   "Largemouth Bass": 100,
+   "Smallmouth Bass": 50,
+   "Rainbow Trout": 65,
+   "Salmon": 75,
+   "Walleye": 105,
+   "Perch": 55,
+   "Carp": 30,
+   "Catfish": 200,
+   "Pike": 100,
+   "Sunfish": 30,
+   "Red Mullet": 75,
+   "Herring": 30,
+   "Eel": 85,
+   "Octopus": 150,
+   "Red Snapper": 50,
+   "Squid": 80,
+   "Sea Cucumber": 75,
+   "Super Cucumber": 250,
+   "Ghostfish": 45,
+   "Sandfish": 75,
+   "Scorpion Carp": 150,
+   "Joja Cola": 25,
+   "Egg": 50,
+   "Large Egg": 95,
+   "Milk": 125,
+   "Large Milk": 190,
+   "Green Bean": 40,
+   "Cauliflower": 175,
+   "Potato": 80,
+   "Fried Egg": 35,
+   "Omelet": 125,
+   "Salad": 110,
+   "Cheese Cauliflower": 300,
+   "Baked Fish": 100,
+   "Parsnip Soup": 120,
+   "Vegetable Medley": 120,
+   "Complete Breakfast": 350,
+   "Fried Calamari": 150,
+   "Strange Bun": 225,
+   "Lucky Lunch": 250,
+   "Fried Mushroom": 200,
+   "Pizza": 300,
+   "Bean Hotpot": 100,
+   "Glazed Yams": 200,
+   "Carp Surprise": 150,
+   "Hashbrowns": 120,
+   "Pancakes": 80,
+   "Salmon Dinner": 300,
+   "Fish Taco": 500,
+   "Crispy Bass": 150,
+   "Pepper Poppers": 200,
+   "Bread": 60,
+   "Tom Kha Soup": 250,
+   "Trout Soup": 100,
+   "Chocolate Cake": 200,
+   "Pink Cake": 480,
+   "Rhubarb Pie": 400,
+   "Cookie": 140,
+   "Spaghetti": 120,
+   "Fried Eel": 120,
+   "Spicy Eel": 175,
+   "Sashimi": 75,
+   "Maki Roll": 220,
+   "Tortilla": 50,
+   "Red Plate": 400,
+   "Eggplant Parmesan": 200,
+   "Rice Pudding": 260,
+   "Ice Cream": 120,
+   "Blueberry Tart": 150,
+   "Autumn's Bounty": 350,
+   "Pumpkin Soup": 300,
+   "Super Meal": 220,
+   "Cranberry Sauce": 120,
+   "Stuffing": 165,
+   "Farmer's Lunch": 150,
+   "Survival Burger": 180,
+   "Dish O' The Sea": 220,
+   "Miner's Treat": 200,
+   "Roots Platter": 100,
+   "Garlic": 60,
+   "Kale": 110,
+   "Tea Sapling": 250,
+   "Rhubarb": 220,
+   "Triple Shot Espresso": 450,
+   "Melon": 250,
+   "Tomato": 60,
+   "Morel": 150,
+   "Blueberry": 50,
+   "Fiddlehead Fern": 90,
+   "Hot Pepper": 40,
+   "Wheat": 25,
+   "Radish": 90,
+   "Red Cabbage": 260,
+   "Starfruit": 750,
+   "Corn": 50,
+   "Unmilled Rice": 30,
+   "Eggplant": 60,
+   "Rice Shoot": 20,
+   "Artichoke": 160,
+   "Pumpkin": 320,
+   "Bok Choy": 80,
+   "Yam": 160,
+   "Chanterelle": 160,
+   "Cranberries": 75,
+   "Holly": 80,
+   "Beet": 100,
+   "Cherry Bomb": 50,
+   "Bomb": 50,
+   "Mega Bomb": 50,
+   "Brick Floor": 1,
+   "Salmonberry": 5,
+   "Hardwood Fence": 10,
+   "Amaranth Seeds": 35,
+   "Amaranth": 150,
+   "Grape Starter": 30,
+   "Hops Starter": 30,
+   "Pale Ale": 300,
+   "Hops": 25,
+   "Mayonnaise": 190,
+   "Duck Mayonnaise": 375,
+   "Acorn": 20,
+   "Maple Seed": 5,
+   "Pine Cone": 5,
+   "Wood Fence": 1,
+   "Stone Fence": 2,
+   "Iron Fence": 6,
+   "Gate": 4,
+   "Wood Floor": 1,
+   "Stone Floor": 1,
+   "Clay": 20,
+   "Weathered Floor": 1,
+   "Crystal Floor": 1,
+   "Copper Bar": 60,
+   "Iron Bar": 120,
+   "Gold Bar": 250,
+   "Iridium Bar": 1000,
+   "Refined Quartz": 50,
+   "Honey": 100,
+   "Pickles": 100,
+   "Jelly": 160,
+   "Beer": 200,
+   "Rare Seed": 200,
+   "Wine": 400,
+   "Juice": 150,
+   "Basic Fertilizer": 2,
+   "Quality Fertilizer": 10,
+   "Basic Retaining Soil": 4,
+   "Quality Retaining Soil": 5,
+   "Clam": 50,
+   "Copper Ore": 5,
+   "Iron Ore": 10,
+   "Coal": 15,
+   "Gold Ore": 25,
+   "Iridium Ore": 100,
+   "Wood": 2,
+   "Stone": 2,
+   "Nautilus Shell": 120,
+   "Coral": 80,
+   "Rainbow Shell": 300,
+   "Spice Berry": 80,
+   "Sea Urchin": 160,
+   "Grape": 80,
+   "Spring Onion": 8,
+   "Strawberry": 120,
+   "Straw Floor": 1,
+   "Sweet Pea": 50,
+   "Common Mushroom": 40,
+   "Wood Path": 1,
+   "Wild Plum": 80,
+   "Gravel Path": 1,
+   "Hazelnut": 90,
+   "Crystal Path": 1,
+   "Blackberry": 20,
+   "Cobblestone Path": 1,
+   "Winter Root": 70,
+   "Crystal Fruit": 150,
+   "Stepping Stone Path": 1,
+   "Snow Yam": 100,
+   "Crocus": 60,
+   "Red Mushroom": 75,
+   "Sunflower": 80,
+   "Purple Mushroom": 250,
+   "Cheese": 230,
+   "Goat Cheese": 400,
+   "Cloth": 470,
+   "Truffle": 625,
+   "Truffle Oil": 1065,
+   "Coffee Bean": 15,
+   "Goat Milk": 225,
+   "L. Goat Milk": 345,
+   "Wool": 340,
+   "Duck Egg": 95,
+   "Duck Feather": 250,
+   "Rabbit's Foot": 565,
+   "Algae Soup": 100,
+   "Pale Broth": 150,
+   "Mead": 300,
+   "Speed-Gro": 20,
+   "Deluxe Speed-Gro": 40,
+   "Parsnip Seeds": 10,
+   "Bean Starter": 30,
+   "Cauliflower Seeds": 40,
+   "Potato Seeds": 25,
+   "Garlic Seeds": 20,
+   "Kale Seeds": 35,
+   "Rhubarb Seeds": 50,
+   "Melon Seeds": 40,
+   "Tomato Seeds": 25,
+   "Blueberry Seeds": 40,
+   "Pepper Seeds": 20,
+   "Wheat Seeds": 5,
+   "Radish Seeds": 20,
+   "Red Cabbage Seeds": 50,
+   "Starfruit Seeds": 200,
+   "Corn Seeds": 75,
+   "Eggplant Seeds": 10,
+   "Artichoke Seeds": 15,
+   "Pumpkin Seeds": 50,
+   "Bok Choy Seeds": 25,
+   "Yam Seeds": 30,
+   "Cranberry Seeds": 120,
+   "Beet Seeds": 10,
+   "Spring Seeds": 35,
+   "Summer Seeds": 55,
+   "Fall Seeds": 45,
+   "Winter Seeds": 30,
+   "Tulip Bulb": 10,
+   "Jazz Seeds": 15,
+   "Poppy Seeds": 50,
+   "Spangle Seeds": 25,
+   "Sunflower Seeds": 20,
+   "Fairy Seeds": 100,
+   "Tulip": 30,
+   "Summer Spangle": 90,
+   "Fairy Rose": 290,
+   "Blue Jazz": 50,
+   "Sprinkler": 100,
+   "Poppy": 140,
+   "Plum Pudding": 260,
+   "Artichoke Dip": 210,
+   "Stir Fry": 335,
+   "Roasted Hazelnuts": 270,
+   "Pumpkin Pie": 385,
+   "Radish Salad": 300,
+   "Fruit Salad": 450,
+   "Blackberry Cobbler": 260,
+   "Cranberry Candy": 175,
+   "Apple": 100,
+   "Green Tea": 100,
+   "Bruschetta": 210,
+   "Quality Sprinkler": 450,
+   "Coleslaw": 345,
+   "Fiddlehead Risotto": 350,
+   "Poppyseed Muffin": 250,
+   "Cherry Sapling": 850,
+   "Apricot Sapling": 500,
+   "Orange Sapling": 1000,
+   "Peach Sapling": 1500,
+   "Pomegranate Sapling": 1500,
+   "Apple Sapling": 1000,
+   "Apricot": 50,
+   "Orange": 100,
+   "Peach": 140,
+   "Pomegranate": 140,
+   "Cherry": 80,
+   "Bug Meat": 8,
+   "Bait": 1,
+   "Spinner": 250,
+   "Dressed Spinner": 500,
+   "Barbed Hook": 500,
+   "Lead Bobber": 150,
+   "Treasure Hunter": 250,
+   "Trap Bobber": 200,
+   "Cork Bobber": 250,
+   "Sturgeon": 200,
+   "Tiger Trout": 150,
+   "Bullhead": 75,
+   "Tilapia": 75,
+   "Chub": 50,
+   "Magnet": 15,
+   "Dorado": 100,
+   "Albacore": 75,
+   "Shad": 60,
+   "Lingcod": 120,
+   "Halibut": 80,
+   "Hardwood": 15,
+   "Lobster": 120,
+   "Crayfish": 75,
+   "Crab": 100,
+   "Cockle": 50,
+   "Mussel": 30,
+   "Shrimp": 60,
+   "Snail": 65,
+   "Periwinkle": 20,
+   "Oyster": 40,
+   "Maple Syrup": 200,
+   "Oak Resin": 150,
+   "Pine Tar": 100,
+   "Chowder": 135,
+   "Lobster Bisque": 205,
+   "Fish Stew": 175,
+   "Escargot": 125,
+   "Maple Bar": 300,
+   "Crab Cakes": 275,
+   "Shrimp Cocktail": 160,
+   "Woodskip": 75,
+   "Slime": 5,
+   "Bat Wing": 15,
+   "Solar Essence": 40,
+   "Void Essence": 50,
+   "Fiber": 1,
+   "Oil of Garlic": 1000,
+   "Life Elixir": 250,
+   "Battery Pack": 500,
+   "Caviar": 500,
+   "Flounder": 100,
+   "Seafoam Pudding": 300,
+   "Midnight Carp": 150
+  }
+ },
+ "geodes": {
+  "Geode": {
+   "Earth Crystal": 0.0625,
+   "Stone": 0.125,
+   "Clay": 0.0625,
+   "each_mineral": 0.041666666666666664
+  },
+  "Frozen Geode": {
+   "Frozen Tear": 0.0625,
+   "each_mineral": 0.041666666666666664
+  },
+  "Magma Geode": {
+   "Fire Quartz": 0.0625,
+   "each_mineral": 0.041666666666666664
+  },
+  "Omni Geode": {
+   "Fire Quartz": 0.020833333333333332,
+   "Frozen Tear": 0.020833333333333332,
+   "Earth Crystal": 0.020833333333333332
+  }
+ },
+ "mine_floor_items": {
+  "1-39": {
+   "Earth Crystal": 0.25,
+   "Quartz": 0.75
+  },
+  "40-79": {
+   "Frozen Tear": 0.25,
+   "Quartz": 0.75
+  },
+  "80-119": {
+   "Fire Quartz": 0.25,
+   "Quartz": 0.75
+  },
+  "21-39,80+": {
+   "Red Mushroom first roll": 0.1
+  },
+  "81+": {
+   "Purple Mushroom first roll": 0.05
+  }
+ },
+ "crops": {
+  "Parsnip": {
+   "seasons": [
+    "spring"
+   ],
+   "grow": 4,
+   "regrow": -1,
+   "seed_pierre": 20,
+   "seed_joja": 25,
+   "sell": 35,
+   "trellis": false,
+   "latest_plant_day": {
+    "spring": 24
+   },
+   "harvests_from_day1": 6
+  },
+  "Green Bean": {
+   "seasons": [
+    "spring"
+   ],
+   "grow": 10,
+   "regrow": 3,
+   "seed_pierre": 60,
+   "seed_joja": 75,
+   "sell": 40,
+   "trellis": true,
+   "latest_plant_day": {
+    "spring": 18
+   },
+   "harvests_from_day1": 6
+  },
+  "Cauliflower": {
+   "seasons": [
+    "spring"
+   ],
+   "grow": 12,
+   "regrow": -1,
+   "seed_pierre": 80,
+   "seed_joja": 100,
+   "sell": 175,
+   "trellis": false,
+   "latest_plant_day": {
+    "spring": 16
+   },
+   "harvests_from_day1": 2
+  },
+  "Potato": {
+   "seasons": [
+    "spring"
+   ],
+   "grow": 6,
+   "regrow": -1,
+   "seed_pierre": 50,
+   "seed_joja": 62,
+   "sell": 80,
+   "trellis": false,
+   "latest_plant_day": {
+    "spring": 22
+   },
+   "harvests_from_day1": 4
+  },
+  "Garlic": {
+   "seasons": [
+    "spring"
+   ],
+   "grow": 4,
+   "regrow": -1,
+   "seed_pierre": 40,
+   "seed_joja": null,
+   "sell": 60,
+   "trellis": false,
+   "latest_plant_day": {
+    "spring": 24
+   },
+   "harvests_from_day1": 6
+  },
+  "Unmilled Rice": {
+   "seasons": [
+    "spring"
+   ],
+   "grow": 8,
+   "regrow": -1,
+   "seed_pierre": 40,
+   "seed_joja": null,
+   "sell": 30,
+   "trellis": false,
+   "latest_plant_day": {
+    "spring": 20
+   },
+   "harvests_from_day1": 3
+  },
+  "Kale": {
+   "seasons": [
+    "spring"
+   ],
+   "grow": 6,
+   "regrow": -1,
+   "seed_pierre": 70,
+   "seed_joja": 87,
+   "sell": 110,
+   "trellis": false,
+   "latest_plant_day": {
+    "spring": 22
+   },
+   "harvests_from_day1": 4
+  },
+  "Melon": {
+   "seasons": [
+    "summer"
+   ],
+   "grow": 12,
+   "regrow": -1,
+   "seed_pierre": 80,
+   "seed_joja": 100,
+   "sell": 250,
+   "trellis": false,
+   "latest_plant_day": {
+    "summer": 16
+   },
+   "harvests_from_day1": 2
+  },
+  "Tomato": {
+   "seasons": [
+    "summer"
+   ],
+   "grow": 11,
+   "regrow": 4,
+   "seed_pierre": 50,
+   "seed_joja": 62,
+   "sell": 60,
+   "trellis": false,
+   "latest_plant_day": {
+    "summer": 17
+   },
+   "harvests_from_day1": 5
+  },
+  "Blueberry": {
+   "seasons": [
+    "summer"
+   ],
+   "grow": 13,
+   "regrow": 4,
+   "seed_pierre": 80,
+   "seed_joja": null,
+   "sell": 50,
+   "trellis": false,
+   "latest_plant_day": {
+    "summer": 15
+   },
+   "harvests_from_day1": 4
+  },
+  "Hot Pepper": {
+   "seasons": [
+    "summer"
+   ],
+   "grow": 5,
+   "regrow": 3,
+   "seed_pierre": 40,
+   "seed_joja": 50,
+   "sell": 40,
+   "trellis": false,
+   "latest_plant_day": {
+    "summer": 23
+   },
+   "harvests_from_day1": 8
+  },
+  "Wheat": {
+   "seasons": [
+    "summer",
+    "fall"
+   ],
+   "grow": 4,
+   "regrow": -1,
+   "seed_pierre": 10,
+   "seed_joja": 12,
+   "sell": 25,
+   "trellis": false,
+   "latest_plant_day": {
+    "summer": 24,
+    "fall": 24
+   },
+   "harvests_from_day1": 6
+  },
+  "Radish": {
+   "seasons": [
+    "summer"
+   ],
+   "grow": 6,
+   "regrow": -1,
+   "seed_pierre": 40,
+   "seed_joja": 50,
+   "sell": 90,
+   "trellis": false,
+   "latest_plant_day": {
+    "summer": 22
+   },
+   "harvests_from_day1": 4
+  },
+  "Red Cabbage": {
+   "seasons": [
+    "summer"
+   ],
+   "grow": 9,
+   "regrow": -1,
+   "seed_pierre": 100,
+   "seed_joja": null,
+   "sell": 260,
+   "trellis": false,
+   "latest_plant_day": {
+    "summer": 19
+   },
+   "harvests_from_day1": 3
+  },
+  "Corn": {
+   "seasons": [
+    "summer",
+    "fall"
+   ],
+   "grow": 14,
+   "regrow": 4,
+   "seed_pierre": 150,
+   "seed_joja": 187,
+   "sell": 50,
+   "trellis": false,
+   "latest_plant_day": {
+    "summer": 14,
+    "fall": 14
+   },
+   "harvests_from_day1": 4
+  },
+  "Hops": {
+   "seasons": [
+    "summer"
+   ],
+   "grow": 11,
+   "regrow": 1,
+   "seed_pierre": 60,
+   "seed_joja": 75,
+   "sell": 25,
+   "trellis": true,
+   "latest_plant_day": {
+    "summer": 17
+   },
+   "harvests_from_day1": 17
+  },
+  "Grape": {
+   "seasons": [
+    "fall"
+   ],
+   "grow": 10,
+   "regrow": 3,
+   "seed_pierre": 60,
+   "seed_joja": 75,
+   "sell": 80,
+   "trellis": true,
+   "latest_plant_day": {
+    "fall": 18
+   },
+   "harvests_from_day1": 6
+  },
+  "Amaranth": {
+   "seasons": [
+    "fall"
+   ],
+   "grow": 7,
+   "regrow": -1,
+   "seed_pierre": 70,
+   "seed_joja": 87,
+   "sell": 150,
+   "trellis": false,
+   "latest_plant_day": {
+    "fall": 21
+   },
+   "harvests_from_day1": 3
+  },
+  "Eggplant": {
+   "seasons": [
+    "fall"
+   ],
+   "grow": 5,
+   "regrow": 5,
+   "seed_pierre": 20,
+   "seed_joja": 25,
+   "sell": 60,
+   "trellis": false,
+   "latest_plant_day": {
+    "fall": 23
+   },
+   "harvests_from_day1": 5
+  },
+  "Artichoke": {
+   "seasons": [
+    "fall"
+   ],
+   "grow": 8,
+   "regrow": -1,
+   "seed_pierre": 30,
+   "seed_joja": null,
+   "sell": 160,
+   "trellis": false,
+   "latest_plant_day": {
+    "fall": 20
+   },
+   "harvests_from_day1": 3
+  },
+  "Pumpkin": {
+   "seasons": [
+    "fall"
+   ],
+   "grow": 13,
+   "regrow": -1,
+   "seed_pierre": 100,
+   "seed_joja": 125,
+   "sell": 320,
+   "trellis": false,
+   "latest_plant_day": {
+    "fall": 15
+   },
+   "harvests_from_day1": 2
+  },
+  "Bok Choy": {
+   "seasons": [
+    "fall"
+   ],
+   "grow": 4,
+   "regrow": -1,
+   "seed_pierre": 50,
+   "seed_joja": 62,
+   "sell": 80,
+   "trellis": false,
+   "latest_plant_day": {
+    "fall": 24
+   },
+   "harvests_from_day1": 6
+  },
+  "Yam": {
+   "seasons": [
+    "fall"
+   ],
+   "grow": 10,
+   "regrow": -1,
+   "seed_pierre": 60,
+   "seed_joja": 75,
+   "sell": 160,
+   "trellis": false,
+   "latest_plant_day": {
+    "fall": 18
+   },
+   "harvests_from_day1": 2
+  },
+  "Cranberries": {
+   "seasons": [
+    "fall"
+   ],
+   "grow": 7,
+   "regrow": 5,
+   "seed_pierre": 240,
+   "seed_joja": 300,
+   "sell": 75,
+   "trellis": false,
+   "latest_plant_day": {
+    "fall": 21
+   },
+   "harvests_from_day1": 5
+  },
+  "Tulip": {
+   "seasons": [
+    "spring"
+   ],
+   "grow": 6,
+   "regrow": -1,
+   "seed_pierre": 20,
+   "seed_joja": 25,
+   "sell": 30,
+   "trellis": false,
+   "latest_plant_day": {
+    "spring": 22
+   },
+   "harvests_from_day1": 4
+  },
+  "Blue Jazz": {
+   "seasons": [
+    "spring"
+   ],
+   "grow": 7,
+   "regrow": -1,
+   "seed_pierre": 30,
+   "seed_joja": 37,
+   "sell": 50,
+   "trellis": false,
+   "latest_plant_day": {
+    "spring": 21
+   },
+   "harvests_from_day1": 3
+  },
+  "Poppy": {
+   "seasons": [
+    "summer"
+   ],
+   "grow": 7,
+   "regrow": -1,
+   "seed_pierre": 100,
+   "seed_joja": 125,
+   "sell": 140,
+   "trellis": false,
+   "latest_plant_day": {
+    "summer": 21
+   },
+   "harvests_from_day1": 3
+  },
+  "Summer Spangle": {
+   "seasons": [
+    "summer"
+   ],
+   "grow": 8,
+   "regrow": -1,
+   "seed_pierre": 50,
+   "seed_joja": 62,
+   "sell": 90,
+   "trellis": false,
+   "latest_plant_day": {
+    "summer": 20
+   },
+   "harvests_from_day1": 3
+  },
+  "Sunflower": {
+   "seasons": [
+    "summer",
+    "fall"
+   ],
+   "grow": 8,
+   "regrow": -1,
+   "seed_pierre": 200,
+   "seed_joja": 125,
+   "sell": 80,
+   "trellis": false,
+   "latest_plant_day": {
+    "summer": 20,
+    "fall": 20
+   },
+   "harvests_from_day1": 3
+  },
+  "Fairy Rose": {
+   "seasons": [
+    "fall"
+   ],
+   "grow": 12,
+   "regrow": -1,
+   "seed_pierre": 200,
+   "seed_joja": 250,
+   "sell": 290,
+   "trellis": false,
+   "latest_plant_day": {
+    "fall": 16
+   },
+   "harvests_from_day1": 2
+  }
+ },
+ "bundles": [
+  {
+   "room": "Pantry",
+   "id": 0,
+   "name": "Spring Crops",
+   "items": [
+    {
+     "id": "24",
+     "name": "Parsnip",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "188",
+     "name": "Green Bean",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "190",
+     "name": "Cauliflower",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "192",
+     "name": "Potato",
+     "qty": 1,
+     "quality": 0
+    }
+   ],
+   "need": 4,
+   "reward": "O 465 20"
+  },
+  {
+   "room": "Pantry",
+   "id": 1,
+   "name": "Summer Crops",
+   "items": [
+    {
+     "id": "256",
+     "name": "Tomato",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "260",
+     "name": "Hot Pepper",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "258",
+     "name": "Blueberry",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "254",
+     "name": "Melon",
+     "qty": 1,
+     "quality": 0
+    }
+   ],
+   "need": 4,
+   "reward": "O 621 1"
+  },
+  {
+   "room": "Pantry",
+   "id": 2,
+   "name": "Fall Crops",
+   "items": [
+    {
+     "id": "270",
+     "name": "Corn",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "272",
+     "name": "Eggplant",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "276",
+     "name": "Pumpkin",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "280",
+     "name": "Yam",
+     "qty": 1,
+     "quality": 0
+    }
+   ],
+   "need": 4,
+   "reward": "BO 10 1"
+  },
+  {
+   "room": "Pantry",
+   "id": 3,
+   "name": "Quality Crops",
+   "items": [
+    {
+     "id": "24",
+     "name": "Parsnip",
+     "qty": 5,
+     "quality": 2
+    },
+    {
+     "id": "254",
+     "name": "Melon",
+     "qty": 5,
+     "quality": 2
+    },
+    {
+     "id": "276",
+     "name": "Pumpkin",
+     "qty": 5,
+     "quality": 2
+    },
+    {
+     "id": "270",
+     "name": "Corn",
+     "qty": 5,
+     "quality": 2
+    }
+   ],
+   "need": 3,
+   "reward": "BO 15 1"
+  },
+  {
+   "room": "Pantry",
+   "id": 4,
+   "name": "Animal",
+   "items": [
+    {
+     "id": "186",
+     "name": "Large Milk",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "182",
+     "name": "Large Egg",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "174",
+     "name": "Large Egg",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "438",
+     "name": "L. Goat Milk",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "440",
+     "name": "Wool",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "442",
+     "name": "Duck Egg",
+     "qty": 1,
+     "quality": 0
+    }
+   ],
+   "need": 5,
+   "reward": "BO 16 1"
+  },
+  {
+   "room": "Pantry",
+   "id": 5,
+   "name": "Artisan",
+   "items": [
+    {
+     "id": "432",
+     "name": "Truffle Oil",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "428",
+     "name": "Cloth",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "426",
+     "name": "Goat Cheese",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "424",
+     "name": "Cheese",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "340",
+     "name": "Honey",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "344",
+     "name": "Jelly",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "613",
+     "name": "Apple",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "634",
+     "name": "Apricot",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "635",
+     "name": "Orange",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "636",
+     "name": "Peach",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "637",
+     "name": "Pomegranate",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "638",
+     "name": "Cherry",
+     "qty": 1,
+     "quality": 0
+    }
+   ],
+   "need": 6,
+   "reward": "BO 12 1"
+  },
+  {
+   "room": "Crafts Room",
+   "id": 13,
+   "name": "Spring Foraging",
+   "items": [
+    {
+     "id": "16",
+     "name": "Wild Horseradish",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "18",
+     "name": "Daffodil",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "20",
+     "name": "Leek",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "22",
+     "name": "Dandelion",
+     "qty": 1,
+     "quality": 0
+    }
+   ],
+   "need": 4,
+   "reward": "O 495 30"
+  },
+  {
+   "room": "Crafts Room",
+   "id": 14,
+   "name": "Summer Foraging",
+   "items": [
+    {
+     "id": "396",
+     "name": "Spice Berry",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "398",
+     "name": "Grape",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "402",
+     "name": "Sweet Pea",
+     "qty": 1,
+     "quality": 0
+    }
+   ],
+   "need": 3,
+   "reward": "O 496 30"
+  },
+  {
+   "room": "Crafts Room",
+   "id": 15,
+   "name": "Fall Foraging",
+   "items": [
+    {
+     "id": "404",
+     "name": "Common Mushroom",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "406",
+     "name": "Wild Plum",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "408",
+     "name": "Hazelnut",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "410",
+     "name": "Blackberry",
+     "qty": 1,
+     "quality": 0
+    }
+   ],
+   "need": 4,
+   "reward": "O 497 30"
+  },
+  {
+   "room": "Crafts Room",
+   "id": 16,
+   "name": "Winter Foraging",
+   "items": [
+    {
+     "id": "412",
+     "name": "Winter Root",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "414",
+     "name": "Crystal Fruit",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "416",
+     "name": "Snow Yam",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "418",
+     "name": "Crocus",
+     "qty": 1,
+     "quality": 0
+    }
+   ],
+   "need": 4,
+   "reward": "O 498 30"
+  },
+  {
+   "room": "Crafts Room",
+   "id": 17,
+   "name": "Construction",
+   "items": [
+    {
+     "id": "388",
+     "name": "Wood",
+     "qty": 99,
+     "quality": 0
+    },
+    {
+     "id": "388",
+     "name": "Wood",
+     "qty": 99,
+     "quality": 0
+    },
+    {
+     "id": "390",
+     "name": "Stone",
+     "qty": 99,
+     "quality": 0
+    },
+    {
+     "id": "709",
+     "name": "Hardwood",
+     "qty": 10,
+     "quality": 0
+    }
+   ],
+   "need": 4,
+   "reward": "BO 114 1"
+  },
+  {
+   "room": "Crafts Room",
+   "id": 19,
+   "name": "Exotic Foraging",
+   "items": [
+    {
+     "id": "88",
+     "name": "Coconut",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "90",
+     "name": "Cactus Fruit",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "78",
+     "name": "Cave Carrot",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "420",
+     "name": "Red Mushroom",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "422",
+     "name": "Purple Mushroom",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "724",
+     "name": "Maple Syrup",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "725",
+     "name": "Oak Resin",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "726",
+     "name": "Pine Tar",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "257",
+     "name": "Morel",
+     "qty": 1,
+     "quality": 0
+    }
+   ],
+   "need": 5,
+   "reward": "O 235 5"
+  },
+  {
+   "room": "Fish Tank",
+   "id": 6,
+   "name": "River Fish",
+   "items": [
+    {
+     "id": "145",
+     "name": "Sunfish",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "143",
+     "name": "Catfish",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "706",
+     "name": "Shad",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "699",
+     "name": "Tiger Trout",
+     "qty": 1,
+     "quality": 0
+    }
+   ],
+   "need": 4,
+   "reward": "O DeluxeBait 30"
+  },
+  {
+   "room": "Fish Tank",
+   "id": 7,
+   "name": "Lake Fish",
+   "items": [
+    {
+     "id": "136",
+     "name": "Largemouth Bass",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "142",
+     "name": "Carp",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "700",
+     "name": "Bullhead",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "698",
+     "name": "Sturgeon",
+     "qty": 1,
+     "quality": 0
+    }
+   ],
+   "need": 4,
+   "reward": "O 687 1"
+  },
+  {
+   "room": "Fish Tank",
+   "id": 8,
+   "name": "Ocean Fish",
+   "items": [
+    {
+     "id": "131",
+     "name": "Sardine",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "130",
+     "name": "Tuna",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "150",
+     "name": "Red Snapper",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "701",
+     "name": "Tilapia",
+     "qty": 1,
+     "quality": 0
+    }
+   ],
+   "need": 4,
+   "reward": "O 690 5"
+  },
+  {
+   "room": "Fish Tank",
+   "id": 9,
+   "name": "Night Fishing",
+   "items": [
+    {
+     "id": "140",
+     "name": "Walleye",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "132",
+     "name": "Bream",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "148",
+     "name": "Eel",
+     "qty": 1,
+     "quality": 0
+    }
+   ],
+   "need": 3,
+   "reward": "R 517 1"
+  },
+  {
+   "room": "Fish Tank",
+   "id": 10,
+   "name": "Specialty Fish",
+   "items": [
+    {
+     "id": "128",
+     "name": "Pufferfish",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "156",
+     "name": "Ghostfish",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "164",
+     "name": "Sandfish",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "734",
+     "name": "Woodskip",
+     "qty": 1,
+     "quality": 0
+    }
+   ],
+   "need": 4,
+   "reward": "O 242 5"
+  },
+  {
+   "room": "Fish Tank",
+   "id": 11,
+   "name": "Crab Pot",
+   "items": [
+    {
+     "id": "715",
+     "name": "Lobster",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "716",
+     "name": "Crayfish",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "717",
+     "name": "Crab",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "718",
+     "name": "Cockle",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "719",
+     "name": "Mussel",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "720",
+     "name": "Shrimp",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "721",
+     "name": "Snail",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "722",
+     "name": "Periwinkle",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "723",
+     "name": "Oyster",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "372",
+     "name": "Clam",
+     "qty": 1,
+     "quality": 0
+    }
+   ],
+   "need": 5,
+   "reward": "O 710 3"
+  },
+  {
+   "room": "Boiler Room",
+   "id": 20,
+   "name": "Blacksmith's",
+   "items": [
+    {
+     "id": "334",
+     "name": "Copper Bar",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "335",
+     "name": "Iron Bar",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "336",
+     "name": "Gold Bar",
+     "qty": 1,
+     "quality": 0
+    }
+   ],
+   "need": 3,
+   "reward": "BO 13 1"
+  },
+  {
+   "room": "Boiler Room",
+   "id": 21,
+   "name": "Geologist's",
+   "items": [
+    {
+     "id": "80",
+     "name": "Quartz",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "86",
+     "name": "Earth Crystal",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "84",
+     "name": "Frozen Tear",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "82",
+     "name": "Fire Quartz",
+     "qty": 1,
+     "quality": 0
+    }
+   ],
+   "need": 4,
+   "reward": "O 749 5"
+  },
+  {
+   "room": "Boiler Room",
+   "id": 22,
+   "name": "Adventurer's",
+   "items": [
+    {
+     "id": "766",
+     "name": "Slime",
+     "qty": 99,
+     "quality": 0
+    },
+    {
+     "id": "767",
+     "name": "Bat Wing",
+     "qty": 10,
+     "quality": 0
+    },
+    {
+     "id": "768",
+     "name": "Solar Essence",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "769",
+     "name": "Void Essence",
+     "qty": 1,
+     "quality": 0
+    }
+   ],
+   "need": 2,
+   "reward": "R 518 1"
+  },
+  {
+   "room": "Vault",
+   "id": 23,
+   "name": "2,500g",
+   "items": [
+    {
+     "id": "-1",
+     "name": "gold",
+     "qty": 2500,
+     "quality": 2500
+    }
+   ],
+   "need": 1,
+   "reward": "O 220 3"
+  },
+  {
+   "room": "Vault",
+   "id": 24,
+   "name": "5,000g",
+   "items": [
+    {
+     "id": "-1",
+     "name": "gold",
+     "qty": 5000,
+     "quality": 5000
+    }
+   ],
+   "need": 1,
+   "reward": "O 369 30"
+  },
+  {
+   "room": "Vault",
+   "id": 25,
+   "name": "10,000g",
+   "items": [
+    {
+     "id": "-1",
+     "name": "gold",
+     "qty": 10000,
+     "quality": 10000
+    }
+   ],
+   "need": 1,
+   "reward": "BO 9 1"
+  },
+  {
+   "room": "Vault",
+   "id": 26,
+   "name": "25,000g",
+   "items": [
+    {
+     "id": "-1",
+     "name": "gold",
+     "qty": 25000,
+     "quality": 25000
+    }
+   ],
+   "need": 1,
+   "reward": "BO 21 1"
+  },
+  {
+   "room": "Bulletin Board",
+   "id": 31,
+   "name": "Chef's",
+   "items": [
+    {
+     "id": "724",
+     "name": "Maple Syrup",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "259",
+     "name": "Fiddlehead Fern",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "430",
+     "name": "Truffle",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "376",
+     "name": "Poppy",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "228",
+     "name": "Maki Roll",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "194",
+     "name": "Fried Egg",
+     "qty": 1,
+     "quality": 0
+    }
+   ],
+   "need": 6,
+   "reward": "O 221 3"
+  },
+  {
+   "room": "Bulletin Board",
+   "id": 32,
+   "name": "Field Research",
+   "items": [
+    {
+     "id": "422",
+     "name": "Purple Mushroom",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "392",
+     "name": "Nautilus Shell",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "702",
+     "name": "Chub",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "536",
+     "name": "Frozen Geode",
+     "qty": 1,
+     "quality": 0
+    }
+   ],
+   "need": 4,
+   "reward": "BO 20 1"
+  },
+  {
+   "room": "Bulletin Board",
+   "id": 33,
+   "name": "Enchanter's",
+   "items": [
+    {
+     "id": "725",
+     "name": "Oak Resin",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "348",
+     "name": "Wine",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "446",
+     "name": "Rabbit's Foot",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "637",
+     "name": "Pomegranate",
+     "qty": 1,
+     "quality": 0
+    }
+   ],
+   "need": 4,
+   "reward": "O 336 5"
+  },
+  {
+   "room": "Bulletin Board",
+   "id": 34,
+   "name": "Dye",
+   "items": [
+    {
+     "id": "420",
+     "name": "Red Mushroom",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "397",
+     "name": "Sea Urchin",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "421",
+     "name": "Sunflower",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "444",
+     "name": "Duck Feather",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "62",
+     "name": "Aquamarine",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "266",
+     "name": "Red Cabbage",
+     "qty": 1,
+     "quality": 0
+    }
+   ],
+   "need": 6,
+   "reward": "BO 25 1"
+  },
+  {
+   "room": "Bulletin Board",
+   "id": 35,
+   "name": "Fodder",
+   "items": [
+    {
+     "id": "262",
+     "name": "Wheat",
+     "qty": 10,
+     "quality": 0
+    },
+    {
+     "id": "178",
+     "name": "Hay",
+     "qty": 10,
+     "quality": 0
+    },
+    {
+     "id": "613",
+     "name": "Apple",
+     "qty": 3,
+     "quality": 0
+    }
+   ],
+   "need": 3,
+   "reward": "BO 104 1"
+  },
+  {
+   "room": "Abandoned Joja Mart",
+   "id": 36,
+   "name": "The Missing",
+   "items": [
+    {
+     "id": "348",
+     "name": "Wine",
+     "qty": 1,
+     "quality": 1
+    },
+    {
+     "id": "807",
+     "name": "Dinosaur Mayonnaise",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "74",
+     "name": "Prismatic Shard",
+     "qty": 1,
+     "quality": 0
+    },
+    {
+     "id": "454",
+     "name": "Ancient Fruit",
+     "qty": 5,
+     "quality": 2
+    },
+    {
+     "id": "795",
+     "name": "Void Salmon",
+     "qty": 1,
+     "quality": 2
+    },
+    {
+     "id": "445",
+     "name": "Caviar",
+     "qty": 1,
+     "quality": 0
+    }
+   ],
+   "need": 5,
+   "reward": ""
+  }
+ ],
+ "fish": {
+  "128": {
+   "name": "Pufferfish",
+   "trap": false,
+   "difficulty": 80,
+   "behavior": "floater",
+   "times": [
+    [
+     1200,
+     1600
+    ]
+   ],
+   "seasons": [
+    "summer"
+   ],
+   "weather": "sunny",
+   "maxdepth": 4,
+   "spawn": 0.3,
+   "depth_mult": 0.5,
+   "min_level": 0
+  },
+  "129": {
+   "name": "Anchovy",
+   "trap": false,
+   "difficulty": 30,
+   "behavior": "dart",
+   "times": [
+    [
+     600,
+     2600
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "fall"
+   ],
+   "weather": "both",
+   "maxdepth": 1,
+   "spawn": 0.25,
+   "depth_mult": 0.3,
+   "min_level": 0
+  },
+  "130": {
+   "name": "Tuna",
+   "trap": false,
+   "difficulty": 70,
+   "behavior": "smooth",
+   "times": [
+    [
+     600,
+     1900
+    ]
+   ],
+   "seasons": [
+    "summer",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 3,
+   "spawn": 0.15,
+   "depth_mult": 0.55,
+   "min_level": 0
+  },
+  "131": {
+   "name": "Sardine",
+   "trap": false,
+   "difficulty": 30,
+   "behavior": "dart",
+   "times": [
+    [
+     600,
+     1900
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "summer",
+    "fall",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 1,
+   "spawn": 0.65,
+   "depth_mult": 0.1,
+   "min_level": 0
+  },
+  "132": {
+   "name": "Bream",
+   "trap": false,
+   "difficulty": 35,
+   "behavior": "smooth",
+   "times": [
+    [
+     1800,
+     2600
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "summer",
+    "fall",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 1,
+   "spawn": 0.45,
+   "depth_mult": 0.1,
+   "min_level": 0
+  },
+  "136": {
+   "name": "Largemouth Bass",
+   "trap": false,
+   "difficulty": 50,
+   "behavior": "mixed",
+   "times": [
+    [
+     600,
+     1900
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "summer",
+    "fall",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 3,
+   "spawn": 0.4,
+   "depth_mult": 0.2,
+   "min_level": 0
+  },
+  "137": {
+   "name": "Smallmouth Bass",
+   "trap": false,
+   "difficulty": 28,
+   "behavior": "mixed",
+   "times": [
+    [
+     600,
+     2600
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "fall"
+   ],
+   "weather": "both",
+   "maxdepth": 1,
+   "spawn": 0.45,
+   "depth_mult": 0.1,
+   "min_level": 0
+  },
+  "138": {
+   "name": "Rainbow Trout",
+   "trap": false,
+   "difficulty": 45,
+   "behavior": "mixed",
+   "times": [
+    [
+     600,
+     1900
+    ]
+   ],
+   "seasons": [
+    "summer"
+   ],
+   "weather": "sunny",
+   "maxdepth": 2,
+   "spawn": 0.35,
+   "depth_mult": 0.3,
+   "min_level": 0
+  },
+  "139": {
+   "name": "Salmon",
+   "trap": false,
+   "difficulty": 50,
+   "behavior": "mixed",
+   "times": [
+    [
+     600,
+     1900
+    ]
+   ],
+   "seasons": [
+    "fall"
+   ],
+   "weather": "both",
+   "maxdepth": 3,
+   "spawn": 0.4,
+   "depth_mult": 0.2,
+   "min_level": 0
+  },
+  "140": {
+   "name": "Walleye",
+   "trap": false,
+   "difficulty": 45,
+   "behavior": "smooth",
+   "times": [
+    [
+     1200,
+     2600
+    ]
+   ],
+   "seasons": [
+    "fall",
+    "winter"
+   ],
+   "weather": "rainy",
+   "maxdepth": 2,
+   "spawn": 0.4,
+   "depth_mult": 0.15,
+   "min_level": 0
+  },
+  "141": {
+   "name": "Perch",
+   "trap": false,
+   "difficulty": 35,
+   "behavior": "dart",
+   "times": [
+    [
+     600,
+     2600
+    ]
+   ],
+   "seasons": [
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 1,
+   "spawn": 0.45,
+   "depth_mult": 0.1,
+   "min_level": 0
+  },
+  "142": {
+   "name": "Carp",
+   "trap": false,
+   "difficulty": 15,
+   "behavior": "mixed",
+   "times": [
+    [
+     600,
+     2600
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "summer",
+    "fall"
+   ],
+   "weather": "both",
+   "maxdepth": 1,
+   "spawn": 0.45,
+   "depth_mult": 0.1,
+   "min_level": 0
+  },
+  "143": {
+   "name": "Catfish",
+   "trap": false,
+   "difficulty": 75,
+   "behavior": "mixed",
+   "times": [
+    [
+     600,
+     2400
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "fall",
+    "winter"
+   ],
+   "weather": "rainy",
+   "maxdepth": 4,
+   "spawn": 0.4,
+   "depth_mult": 0.1,
+   "min_level": 0
+  },
+  "144": {
+   "name": "Pike",
+   "trap": false,
+   "difficulty": 60,
+   "behavior": "dart",
+   "times": [
+    [
+     600,
+     2600
+    ]
+   ],
+   "seasons": [
+    "summer",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 3,
+   "spawn": 0.4,
+   "depth_mult": 0.15,
+   "min_level": 0
+  },
+  "145": {
+   "name": "Sunfish",
+   "trap": false,
+   "difficulty": 30,
+   "behavior": "mixed",
+   "times": [
+    [
+     600,
+     1900
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "summer"
+   ],
+   "weather": "sunny",
+   "maxdepth": 1,
+   "spawn": 0.45,
+   "depth_mult": 0.1,
+   "min_level": 0
+  },
+  "146": {
+   "name": "Red Mullet",
+   "trap": false,
+   "difficulty": 55,
+   "behavior": "smooth",
+   "times": [
+    [
+     600,
+     1900
+    ]
+   ],
+   "seasons": [
+    "summer",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 2,
+   "spawn": 0.4,
+   "depth_mult": 0.15,
+   "min_level": 0
+  },
+  "147": {
+   "name": "Herring",
+   "trap": false,
+   "difficulty": 25,
+   "behavior": "dart",
+   "times": [
+    [
+     600,
+     2600
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 1,
+   "spawn": 0.45,
+   "depth_mult": 0.1,
+   "min_level": 0
+  },
+  "148": {
+   "name": "Eel",
+   "trap": false,
+   "difficulty": 70,
+   "behavior": "smooth",
+   "times": [
+    [
+     1600,
+     2600
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "fall"
+   ],
+   "weather": "rainy",
+   "maxdepth": 3,
+   "spawn": 0.55,
+   "depth_mult": 0.1,
+   "min_level": 0
+  },
+  "149": {
+   "name": "Octopus",
+   "trap": false,
+   "difficulty": 95,
+   "behavior": "sinker",
+   "times": [
+    [
+     600,
+     1300
+    ]
+   ],
+   "seasons": [
+    "summer"
+   ],
+   "weather": "both",
+   "maxdepth": 5,
+   "spawn": 0.1,
+   "depth_mult": 0.08,
+   "min_level": 0
+  },
+  "150": {
+   "name": "Red Snapper",
+   "trap": false,
+   "difficulty": 40,
+   "behavior": "mixed",
+   "times": [
+    [
+     600,
+     1900
+    ]
+   ],
+   "seasons": [
+    "summer",
+    "fall",
+    "winter"
+   ],
+   "weather": "rainy",
+   "maxdepth": 2,
+   "spawn": 0.45,
+   "depth_mult": 0.1,
+   "min_level": 0
+  },
+  "151": {
+   "name": "Squid",
+   "trap": false,
+   "difficulty": 75,
+   "behavior": "sinker",
+   "times": [
+    [
+     1800,
+     2600
+    ]
+   ],
+   "seasons": [
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 3,
+   "spawn": 0.35,
+   "depth_mult": 0.3,
+   "min_level": 0
+  },
+  "152": {
+   "name": "Seaweed",
+   "trap": false,
+   "difficulty": 5,
+   "behavior": "floater",
+   "times": [
+    [
+     600,
+     2600
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "summer",
+    "fall",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 0,
+   "spawn": 0.3,
+   "depth_mult": 0.0,
+   "min_level": 0
+  },
+  "153": {
+   "name": "Green Algae",
+   "trap": false,
+   "difficulty": 5,
+   "behavior": "floater",
+   "times": [
+    [
+     600,
+     2600
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "summer",
+    "fall",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 0,
+   "spawn": 0.3,
+   "depth_mult": 0.0,
+   "min_level": 0
+  },
+  "154": {
+   "name": "Sea Cucumber",
+   "trap": false,
+   "difficulty": 40,
+   "behavior": "sinker",
+   "times": [
+    [
+     600,
+     1900
+    ]
+   ],
+   "seasons": [
+    "fall",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 3,
+   "spawn": 0.25,
+   "depth_mult": 0.25,
+   "min_level": 0
+  },
+  "155": {
+   "name": "Super Cucumber",
+   "trap": false,
+   "difficulty": 80,
+   "behavior": "sinker",
+   "times": [
+    [
+     1800,
+     2600
+    ]
+   ],
+   "seasons": [
+    "summer",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 4,
+   "spawn": 0.1,
+   "depth_mult": 0.25,
+   "min_level": 0
+  },
+  "156": {
+   "name": "Ghostfish",
+   "trap": false,
+   "difficulty": 50,
+   "behavior": "mixed",
+   "times": [
+    [
+     600,
+     2600
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "summer",
+    "fall",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 2,
+   "spawn": 0.3,
+   "depth_mult": 0.3,
+   "min_level": 0
+  },
+  "157": {
+   "name": "White Algae",
+   "trap": false,
+   "difficulty": 5,
+   "behavior": "floater",
+   "times": [
+    [
+     600,
+     2600
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "summer",
+    "fall",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 0,
+   "spawn": 0.3,
+   "depth_mult": 0.0,
+   "min_level": 0
+  },
+  "158": {
+   "name": "Stonefish",
+   "trap": false,
+   "difficulty": 65,
+   "behavior": "sinker",
+   "times": [
+    [
+     600,
+     2600
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "summer",
+    "fall",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 2,
+   "spawn": 0.1,
+   "depth_mult": 0.1,
+   "min_level": 3
+  },
+  "159": {
+   "name": "Crimsonfish",
+   "trap": false,
+   "difficulty": 95,
+   "behavior": "mixed",
+   "times": [
+    [
+     600,
+     2000
+    ]
+   ],
+   "seasons": [
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 4,
+   "spawn": 0.1,
+   "depth_mult": 0.1,
+   "min_level": 5
+  },
+  "160": {
+   "name": "Angler",
+   "trap": false,
+   "difficulty": 85,
+   "behavior": "smooth",
+   "times": [
+    [
+     600,
+     2600
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "summer",
+    "fall",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 4,
+   "spawn": 0.05,
+   "depth_mult": 0.1,
+   "min_level": 3
+  },
+  "161": {
+   "name": "Ice Pip",
+   "trap": false,
+   "difficulty": 85,
+   "behavior": "dart",
+   "times": [
+    [
+     600,
+     2600
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "summer",
+    "fall",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 2,
+   "spawn": 0.05,
+   "depth_mult": 0.1,
+   "min_level": 5
+  },
+  "162": {
+   "name": "Lava Eel",
+   "trap": false,
+   "difficulty": 90,
+   "behavior": "mixed",
+   "times": [
+    [
+     600,
+     2600
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "summer",
+    "fall",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 2,
+   "spawn": 0.05,
+   "depth_mult": 0.1,
+   "min_level": 7
+  },
+  "163": {
+   "name": "Legend",
+   "trap": false,
+   "difficulty": 110,
+   "behavior": "mixed",
+   "times": [
+    [
+     600,
+     2000
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "summer",
+    "fall",
+    "winter"
+   ],
+   "weather": "rainy",
+   "maxdepth": 5,
+   "spawn": 0.0,
+   "depth_mult": 0.1,
+   "min_level": 10
+  },
+  "775": {
+   "name": "Glacierfish",
+   "trap": false,
+   "difficulty": 100,
+   "behavior": "mixed",
+   "times": [
+    [
+     600,
+     2000
+    ]
+   ],
+   "seasons": [
+    "winter"
+   ],
+   "weather": "sunny",
+   "maxdepth": 5,
+   "spawn": 0.0,
+   "depth_mult": 0.02,
+   "min_level": 7
+  },
+  "682": {
+   "name": "Mutant Carp",
+   "trap": false,
+   "difficulty": 80,
+   "behavior": "dart",
+   "times": [
+    [
+     600,
+     2600
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "summer",
+    "fall",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 5,
+   "spawn": 0.0,
+   "depth_mult": 0.02,
+   "min_level": 0
+  },
+  "164": {
+   "name": "Sandfish",
+   "trap": false,
+   "difficulty": 65,
+   "behavior": "mixed",
+   "times": [
+    [
+     600,
+     2000
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "summer",
+    "fall",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 1,
+   "spawn": 0.65,
+   "depth_mult": 0.1,
+   "min_level": 0
+  },
+  "165": {
+   "name": "Scorpion Carp",
+   "trap": false,
+   "difficulty": 90,
+   "behavior": "dart",
+   "times": [
+    [
+     600,
+     2000
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "summer",
+    "fall",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 2,
+   "spawn": 0.15,
+   "depth_mult": 0.1,
+   "min_level": 4
+  },
+  "267": {
+   "name": "Flounder",
+   "trap": false,
+   "difficulty": 50,
+   "behavior": "sinker",
+   "times": [
+    [
+     600,
+     2000
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "summer"
+   ],
+   "weather": "both",
+   "maxdepth": 2,
+   "spawn": 0.15,
+   "depth_mult": 0.05,
+   "min_level": 0
+  },
+  "269": {
+   "name": "Midnight Carp",
+   "trap": false,
+   "difficulty": 55,
+   "behavior": "mixed",
+   "times": [
+    [
+     2200,
+     2600
+    ]
+   ],
+   "seasons": [
+    "fall",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 1,
+   "spawn": 0.33,
+   "depth_mult": 0.1,
+   "min_level": 0
+  },
+  "715": {
+   "name": "Lobster",
+   "trap": true,
+   "chance": 0.05,
+   "water": "ocean"
+  },
+  "717": {
+   "name": "Crab",
+   "trap": true,
+   "chance": 0.1,
+   "water": "ocean"
+  },
+  "723": {
+   "name": "Oyster",
+   "trap": true,
+   "chance": 0.15,
+   "water": "ocean"
+  },
+  "372": {
+   "name": "Clam",
+   "trap": true,
+   "chance": 0.15,
+   "water": "ocean"
+  },
+  "720": {
+   "name": "Shrimp",
+   "trap": true,
+   "chance": 0.2,
+   "water": "ocean"
+  },
+  "718": {
+   "name": "Cockle",
+   "trap": true,
+   "chance": 0.3,
+   "water": "ocean"
+  },
+  "719": {
+   "name": "Mussel",
+   "trap": true,
+   "chance": 0.35,
+   "water": "ocean"
+  },
+  "721": {
+   "name": "Snail",
+   "trap": true,
+   "chance": 0.25,
+   "water": "freshwater"
+  },
+  "716": {
+   "name": "Crayfish",
+   "trap": true,
+   "chance": 0.35,
+   "water": "freshwater"
+  },
+  "722": {
+   "name": "Periwinkle",
+   "trap": true,
+   "chance": 0.55,
+   "water": "freshwater"
+  },
+  "698": {
+   "name": "Sturgeon",
+   "trap": false,
+   "difficulty": 78,
+   "behavior": "mixed",
+   "times": [
+    [
+     600,
+     1900
+    ]
+   ],
+   "seasons": [
+    "summer",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 3,
+   "spawn": 0.35,
+   "depth_mult": 0.2,
+   "min_level": 0
+  },
+  "699": {
+   "name": "Tiger Trout",
+   "trap": false,
+   "difficulty": 60,
+   "behavior": "dart",
+   "times": [
+    [
+     600,
+     1900
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "summer",
+    "fall",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 3,
+   "spawn": 0.2,
+   "depth_mult": 0.1,
+   "min_level": 0
+  },
+  "700": {
+   "name": "Bullhead",
+   "trap": false,
+   "difficulty": 46,
+   "behavior": "smooth",
+   "times": [
+    [
+     600,
+     2600
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "summer",
+    "fall",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 2,
+   "spawn": 0.35,
+   "depth_mult": 0.2,
+   "min_level": 0
+  },
+  "701": {
+   "name": "Tilapia",
+   "trap": false,
+   "difficulty": 50,
+   "behavior": "mixed",
+   "times": [
+    [
+     600,
+     1400
+    ]
+   ],
+   "seasons": [
+    "summer",
+    "fall"
+   ],
+   "weather": "both",
+   "maxdepth": 3,
+   "spawn": 0.4,
+   "depth_mult": 0.2,
+   "min_level": 0
+  },
+  "702": {
+   "name": "Chub",
+   "trap": false,
+   "difficulty": 35,
+   "behavior": "dart",
+   "times": [
+    [
+     600,
+     2600
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "summer",
+    "fall",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 1,
+   "spawn": 0.45,
+   "depth_mult": 0.1,
+   "min_level": 0
+  },
+  "704": {
+   "name": "Dorado",
+   "trap": false,
+   "difficulty": 78,
+   "behavior": "mixed",
+   "times": [
+    [
+     600,
+     1900
+    ]
+   ],
+   "seasons": [
+    "summer"
+   ],
+   "weather": "both",
+   "maxdepth": 3,
+   "spawn": 0.15,
+   "depth_mult": 0.1,
+   "min_level": 0
+  },
+  "705": {
+   "name": "Albacore",
+   "trap": false,
+   "difficulty": 60,
+   "behavior": "mixed",
+   "times": [
+    [
+     600,
+     1100
+    ],
+    [
+     1800,
+     2600
+    ]
+   ],
+   "seasons": [
+    "fall",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 3,
+   "spawn": 0.3,
+   "depth_mult": 0.15,
+   "min_level": 0
+  },
+  "706": {
+   "name": "Shad",
+   "trap": false,
+   "difficulty": 45,
+   "behavior": "smooth",
+   "times": [
+    [
+     900,
+     2600
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "summer",
+    "fall"
+   ],
+   "weather": "rainy",
+   "maxdepth": 2,
+   "spawn": 0.35,
+   "depth_mult": 0.2,
+   "min_level": 0
+  },
+  "707": {
+   "name": "Lingcod",
+   "trap": false,
+   "difficulty": 85,
+   "behavior": "mixed",
+   "times": [
+    [
+     600,
+     2600
+    ]
+   ],
+   "seasons": [
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 3,
+   "spawn": 0.3,
+   "depth_mult": 0.05,
+   "min_level": 0
+  },
+  "708": {
+   "name": "Halibut",
+   "trap": false,
+   "difficulty": 50,
+   "behavior": "sinker",
+   "times": [
+    [
+     600,
+     1100
+    ],
+    [
+     1900,
+     2600
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "summer",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 3,
+   "spawn": 0.4,
+   "depth_mult": 0.2,
+   "min_level": 0
+  },
+  "734": {
+   "name": "Woodskip",
+   "trap": false,
+   "difficulty": 50,
+   "behavior": "mixed",
+   "times": [
+    [
+     600,
+     2600
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "summer",
+    "fall",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 3,
+   "spawn": 0.2,
+   "depth_mult": 0.1,
+   "min_level": 0
+  },
+  "795": {
+   "name": "Void Salmon",
+   "trap": false,
+   "difficulty": 80,
+   "behavior": "mixed",
+   "times": [
+    [
+     600,
+     2600
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "summer",
+    "fall",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 2,
+   "spawn": 0.33,
+   "depth_mult": 0.1,
+   "min_level": 0
+  },
+  "796": {
+   "name": "Slimejack",
+   "trap": false,
+   "difficulty": 55,
+   "behavior": "dart",
+   "times": [
+    [
+     600,
+     2600
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "summer",
+    "fall",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 3,
+   "spawn": 0.4,
+   "depth_mult": 0.1,
+   "min_level": 0
+  },
+  "798": {
+   "name": "Midnight Squid",
+   "trap": false,
+   "difficulty": 55,
+   "behavior": "sinker",
+   "times": [
+    [
+     600,
+     2600
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "summer",
+    "fall",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 3,
+   "spawn": 0.4,
+   "depth_mult": 0.1,
+   "min_level": 0
+  },
+  "799": {
+   "name": "Spook Fish",
+   "trap": false,
+   "difficulty": 60,
+   "behavior": "dart",
+   "times": [
+    [
+     600,
+     2600
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "summer",
+    "fall",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 3,
+   "spawn": 0.4,
+   "depth_mult": 0.1,
+   "min_level": 0
+  },
+  "800": {
+   "name": "Blobfish",
+   "trap": false,
+   "difficulty": 75,
+   "behavior": "floater",
+   "times": [
+    [
+     600,
+     2600
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "summer",
+    "fall",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 3,
+   "spawn": 0.4,
+   "depth_mult": 0.1,
+   "min_level": 0
+  },
+  "836": {
+   "name": "Stingray",
+   "trap": false,
+   "difficulty": 80,
+   "behavior": "sinker",
+   "times": [
+    [
+     600,
+     2600
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "summer",
+    "fall",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 4,
+   "spawn": 0.2,
+   "depth_mult": 0.1,
+   "min_level": 0
+  },
+  "837": {
+   "name": "Lionfish",
+   "trap": false,
+   "difficulty": 50,
+   "behavior": "smooth",
+   "times": [
+    [
+     600,
+     2600
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "summer",
+    "fall",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 3,
+   "spawn": 0.4,
+   "depth_mult": 0.1,
+   "min_level": 0
+  },
+  "838": {
+   "name": "Blue Discus",
+   "trap": false,
+   "difficulty": 60,
+   "behavior": "dart",
+   "times": [
+    [
+     600,
+     2600
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "summer",
+    "fall",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 1,
+   "spawn": 0.25,
+   "depth_mult": 0.1,
+   "min_level": 0
+  },
+  "898": {
+   "name": "Son of Crimsonfish",
+   "trap": false,
+   "difficulty": 95,
+   "behavior": "mixed",
+   "times": [
+    [
+     600,
+     2000
+    ]
+   ],
+   "seasons": [
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 4,
+   "spawn": 0.1,
+   "depth_mult": 0.1,
+   "min_level": 5
+  },
+  "899": {
+   "name": "Ms. Angler",
+   "trap": false,
+   "difficulty": 85,
+   "behavior": "smooth",
+   "times": [
+    [
+     600,
+     2600
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "summer",
+    "fall",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 4,
+   "spawn": 0.05,
+   "depth_mult": 0.1,
+   "min_level": 3
+  },
+  "900": {
+   "name": "Legend II",
+   "trap": false,
+   "difficulty": 110,
+   "behavior": "mixed",
+   "times": [
+    [
+     600,
+     2000
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "summer",
+    "fall",
+    "winter"
+   ],
+   "weather": "rainy",
+   "maxdepth": 5,
+   "spawn": 0.0,
+   "depth_mult": 0.1,
+   "min_level": 10
+  },
+  "901": {
+   "name": "Radioactive Carp",
+   "trap": false,
+   "difficulty": 80,
+   "behavior": "dart",
+   "times": [
+    [
+     600,
+     2600
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "summer",
+    "fall",
+    "winter"
+   ],
+   "weather": "both",
+   "maxdepth": 5,
+   "spawn": 0.0,
+   "depth_mult": 0.02,
+   "min_level": 0
+  },
+  "902": {
+   "name": "Glacierfish Jr.",
+   "trap": false,
+   "difficulty": 100,
+   "behavior": "mixed",
+   "times": [
+    [
+     600,
+     2000
+    ]
+   ],
+   "seasons": [
+    "winter"
+   ],
+   "weather": "sunny",
+   "maxdepth": 5,
+   "spawn": 0.0,
+   "depth_mult": 0.02,
+   "min_level": 7
+  },
+  "Goby": {
+   "name": "Goby",
+   "trap": false,
+   "difficulty": 55,
+   "behavior": "dart",
+   "times": [
+    [
+     800,
+     1800
+    ]
+   ],
+   "seasons": [
+    "spring",
+    "summer",
+    "fall"
+   ],
+   "weather": "both",
+   "maxdepth": 1,
+   "spawn": 0.25,
+   "depth_mult": 0.2,
+   "min_level": 0
+  }
+ },
+ "machines": {
+  "Bone Mill": [
+   {
+    "in": [
+     [
+      "bone_item",
+      "!id_o_881"
+     ],
+     "(O)881"
+    ],
+    "out": [
+     "(O)466",
+     "(O)465",
+     "(O)369",
+     "(O)805"
+    ],
+    "minutes": 240,
+    "days": -1
+   }
+  ],
+  "Cask": [
+   {
+    "in": [
+     "(O)424"
+    ],
+    "out": [
+     null
+    ],
+    "minutes": -1,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)426"
+    ],
+    "out": [
+     null
+    ],
+    "minutes": -1,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)348"
+    ],
+    "out": [
+     null
+    ],
+    "minutes": -1,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)459"
+    ],
+    "out": [
+     null
+    ],
+    "minutes": -1,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)303"
+    ],
+    "out": [
+     null
+    ],
+    "minutes": -1,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)346"
+    ],
+    "out": [
+     null
+    ],
+    "minutes": -1,
+    "days": -1
+   }
+  ],
+  "Charcoal Kiln": [
+   {
+    "in": [
+     "(O)388"
+    ],
+    "out": [
+     "(O)382"
+    ],
+    "minutes": 30,
+    "days": -1
+   }
+  ],
+  "Loom": [
+   {
+    "in": [
+     "(O)440"
+    ],
+    "out": [
+     "(O)428"
+    ],
+    "minutes": 240,
+    "days": -1
+   }
+  ],
+  "Furnace": [
+   {
+    "in": [
+     "(O)378"
+    ],
+    "out": [
+     "(O)334"
+    ],
+    "minutes": 30,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)380"
+    ],
+    "out": [
+     "(O)335"
+    ],
+    "minutes": 120,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)384"
+    ],
+    "out": [
+     "(O)336"
+    ],
+    "minutes": 300,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)386"
+    ],
+    "out": [
+     "(O)337"
+    ],
+    "minutes": 480,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)80"
+    ],
+    "out": [
+     "(O)338"
+    ],
+    "minutes": 90,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)82"
+    ],
+    "out": [
+     "(O)338"
+    ],
+    "minutes": 90,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)458"
+    ],
+    "out": [
+     "(O)277"
+    ],
+    "minutes": 10,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)909"
+    ],
+    "out": [
+     "(O)910"
+    ],
+    "minutes": 560,
+    "days": -1
+   }
+  ],
+  "Deconstructor": [
+   {
+    "in": [
+     null
+    ],
+    "out": [
+     null
+    ],
+    "minutes": 60,
+    "days": -1
+   }
+  ],
+  "Keg": [
+   {
+    "in": [
+     "(O)262"
+    ],
+    "out": [
+     "(O)346"
+    ],
+    "minutes": 1750,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)304"
+    ],
+    "out": [
+     "(O)303"
+    ],
+    "minutes": 2250,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)815"
+    ],
+    "out": [
+     "(O)614"
+    ],
+    "minutes": 180,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)433"
+    ],
+    "out": [
+     "(O)395"
+    ],
+    "minutes": 120,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)340"
+    ],
+    "out": [
+     "(O)459"
+    ],
+    "minutes": 600,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)423"
+    ],
+    "out": [
+     "(O)419"
+    ],
+    "minutes": 600,
+    "days": -1
+   },
+   {
+    "in": [
+     [
+      "category_vegetable"
+     ],
+     [
+      "category_greens"
+     ],
+     [
+      "keg_juice"
+     ]
+    ],
+    "out": [
+     "FLAVORED_ITEM Juice DROP_IN_ID"
+    ],
+    "minutes": 6000,
+    "days": -1
+   },
+   {
+    "in": [
+     [
+      "category_fruits"
+     ],
+     [
+      "keg_wine"
+     ]
+    ],
+    "out": [
+     "FLAVORED_ITEM Wine DROP_IN_ID"
+    ],
+    "minutes": 10000,
+    "days": -1
+   }
+  ],
+  "Preserves Jar": [
+   {
+    "in": [
+     "(O)812"
+    ],
+    "out": [
+     "(O)445"
+    ],
+    "minutes": 6000,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)812"
+    ],
+    "out": [
+     "FLAVORED_ITEM AgedRoe DROP_IN_ID DROP_IN_PRESERVE"
+    ],
+    "minutes": 4000,
+    "days": -1
+   },
+   {
+    "in": [
+     [
+      "category_vegetable"
+     ],
+     [
+      "category_greens"
+     ],
+     [
+      "preserves_pickle"
+     ]
+    ],
+    "out": [
+     "FLAVORED_ITEM Pickle DROP_IN_ID"
+    ],
+    "minutes": 4000,
+    "days": -1
+   },
+   {
+    "in": [
+     [
+      "category_fruits"
+     ],
+     [
+      "preserves_jelly"
+     ]
+    ],
+    "out": [
+     "FLAVORED_ITEM Jelly DROP_IN_ID"
+    ],
+    "minutes": 4000,
+    "days": -1
+   }
+  ],
+  "Cheese Press": [
+   {
+    "in": [
+     "(O)436"
+    ],
+    "out": [
+     "(O)426"
+    ],
+    "minutes": 200,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)438"
+    ],
+    "out": [
+     "(O)426"
+    ],
+    "minutes": 200,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)184"
+    ],
+    "out": [
+     "(O)424"
+    ],
+    "minutes": 200,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)186"
+    ],
+    "out": [
+     "(O)424"
+    ],
+    "minutes": 200,
+    "days": -1
+   }
+  ],
+  "Recycling Machine": [
+   {
+    "in": [
+     "(O)168"
+    ],
+    "out": [
+     "(O)382",
+     "(O)380",
+     "(O)390"
+    ],
+    "minutes": 60,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)169"
+    ],
+    "out": [
+     "(O)382",
+     "(O)388"
+    ],
+    "minutes": 60,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)170"
+    ],
+    "out": [
+     "(O)338"
+    ],
+    "minutes": 60,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)171"
+    ],
+    "out": [
+     "(O)338"
+    ],
+    "minutes": 60,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)172"
+    ],
+    "out": [
+     "(O)428",
+     "(O)93"
+    ],
+    "minutes": 60,
+    "days": -1
+   }
+  ],
+  "Mayonnaise Machine": [
+   {
+    "in": [
+     "(O)289"
+    ],
+    "out": [
+     "(O)306"
+    ],
+    "minutes": 180,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)442"
+    ],
+    "out": [
+     "(O)307"
+    ],
+    "minutes": 180,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)305"
+    ],
+    "out": [
+     "(O)308"
+    ],
+    "minutes": 180,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)107"
+    ],
+    "out": [
+     "(O)807"
+    ],
+    "minutes": 180,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)928"
+    ],
+    "out": [
+     "(O)306"
+    ],
+    "minutes": 180,
+    "days": -1
+   },
+   {
+    "in": [
+     [
+      "large_egg_item",
+      "egg_item"
+     ]
+    ],
+    "out": [
+     "(O)306"
+    ],
+    "minutes": 180,
+    "days": -1
+   },
+   {
+    "in": [
+     [
+      "egg_item"
+     ]
+    ],
+    "out": [
+     "(O)306"
+    ],
+    "minutes": 180,
+    "days": -1
+   }
+  ],
+  "Oil Maker": [
+   {
+    "in": [
+     "(O)270"
+    ],
+    "out": [
+     "(O)247"
+    ],
+    "minutes": 1000,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)421"
+    ],
+    "out": [
+     "(O)247"
+    ],
+    "minutes": 60,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)431"
+    ],
+    "out": [
+     "(O)247"
+    ],
+    "minutes": 3200,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)430"
+    ],
+    "out": [
+     "(O)432"
+    ],
+    "minutes": 360,
+    "days": -1
+   }
+  ],
+  "Incubator": [
+   {
+    "in": [
+     null
+    ],
+    "out": [
+     null
+    ],
+    "minutes": 9000,
+    "days": -1
+   }
+  ],
+  "Ostrich Incubator": [
+   {
+    "in": [
+     null
+    ],
+    "out": [
+     null
+    ],
+    "minutes": 15000,
+    "days": -1
+   }
+  ],
+  "Slime Incubator": [
+   {
+    "in": [
+     [
+      "slime_egg_item"
+     ]
+    ],
+    "out": [
+     "DROP_IN"
+    ],
+    "minutes": 4000,
+    "days": -1
+   }
+  ],
+  "Slime Egg-Press": [
+   {
+    "in": [
+     "(O)766"
+    ],
+    "out": [
+     "(O)439",
+     "(O)437",
+     "(O)413",
+     "(O)680"
+    ],
+    "minutes": 1200,
+    "days": -1
+   }
+  ],
+  "Crystalarium": [
+   {
+    "in": [
+     null,
+     [
+      "category_gem",
+      "!crystalarium_banned"
+     ],
+     [
+      "category_minerals",
+      "!crystalarium_banned"
+     ]
+    ],
+    "out": [
+     "DROP_IN"
+    ],
+    "minutes": 5000,
+    "days": -1
+   }
+  ],
+  "Seed Maker": [
+   {
+    "in": [
+     [
+      "!seedmaker_banned"
+     ]
+    ],
+    "out": [
+     null
+    ],
+    "minutes": 20,
+    "days": -1
+   }
+  ],
+  "Geode Crusher": [
+   {
+    "in": [
+     null
+    ],
+    "out": [
+     null
+    ],
+    "minutes": 60,
+    "days": -1
+   }
+  ],
+  "Wood Chipper": [
+   {
+    "in": [
+     "(O)709"
+    ],
+    "out": [
+     "(O)724",
+     "(O)725",
+     "(O)726"
+    ],
+    "minutes": 180,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)709"
+    ],
+    "out": [
+     "(O)388",
+     "(O)388"
+    ],
+    "minutes": 180,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)169"
+    ],
+    "out": [
+     "(O)388"
+    ],
+    "minutes": 180,
+    "days": -1
+   }
+  ],
+  "Bee House": [
+   {
+    "in": [
+     null
+    ],
+    "out": [
+     "FLAVORED_ITEM Honey NEARBY_FLOWER_ID"
+    ],
+    "minutes": -1,
+    "days": 4
+   }
+  ],
+  "Worm Bin": [
+   {
+    "in": [
+     null
+    ],
+    "out": [
+     "(O)685"
+    ],
+    "minutes": -1,
+    "days": 1
+   }
+  ],
+  "Soda Machine": [
+   {
+    "in": [
+     null
+    ],
+    "out": [
+     "(O)167"
+    ],
+    "minutes": null,
+    "days": -1
+   }
+  ],
+  "Coffee Maker": [
+   {
+    "in": [
+     null
+    ],
+    "out": [
+     "(O)395"
+    ],
+    "minutes": null,
+    "days": -1
+   }
+  ],
+  "Solar Panel": [
+   {
+    "in": [
+     null
+    ],
+    "out": [
+     null
+    ],
+    "minutes": -1,
+    "days": -1
+   }
+  ],
+  "Lightning Rod": [],
+  "Tapper": [],
+  "Heavy Tapper": [],
+  "Statue Of True Perfection": [
+   {
+    "in": [
+     null
+    ],
+    "out": [
+     "(O)74"
+    ],
+    "minutes": null,
+    "days": -1
+   }
+  ],
+  "Statue Of Endless Fortune": [
+   {
+    "in": [
+     null
+    ],
+    "out": [
+     null
+    ],
+    "minutes": null,
+    "days": -1
+   }
+  ],
+  "Statue Of Perfection": [
+   {
+    "in": [
+     null
+    ],
+    "out": [
+     "(O)386"
+    ],
+    "minutes": null,
+    "days": -1
+   }
+  ],
+  "Mushroom Box": [
+   {
+    "in": [
+     null
+    ],
+    "out": [
+     "(O)422",
+     "(O)281",
+     "(O)257",
+     "(O)420",
+     "(O)404"
+    ],
+    "minutes": -1,
+    "days": 1
+   }
+  ],
+  "Mushroom Log": [
+   {
+    "in": [
+     null
+    ],
+    "out": [
+     null
+    ],
+    "minutes": -1,
+    "days": 3
+   }
+  ],
+  "Bait Maker": [
+   {
+    "in": [
+     [
+      "category_fish"
+     ]
+    ],
+    "out": [
+     "FLAVORED_ITEM Bait DROP_IN_ID"
+    ],
+    "minutes": 10,
+    "days": -1
+   }
+  ],
+  "Dehydrator": [
+   {
+    "in": [
+     "(O)398"
+    ],
+    "out": [
+     "(O)Raisins"
+    ],
+    "minutes": -1,
+    "days": 1
+   },
+   {
+    "in": [
+     [
+      "category_fruits"
+     ]
+    ],
+    "out": [
+     "FLAVORED_ITEM DriedFruit DROP_IN_ID"
+    ],
+    "minutes": -1,
+    "days": 1
+   },
+   {
+    "in": [
+     [
+      "edible_mushroom"
+     ]
+    ],
+    "out": [
+     "FLAVORED_ITEM DriedMushroom DROP_IN_ID"
+    ],
+    "minutes": -1,
+    "days": 1
+   }
+  ],
+  "Heavy Furnace": [
+   {
+    "in": [
+     "(O)378"
+    ],
+    "out": [
+     "(O)334"
+    ],
+    "minutes": 30,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)380"
+    ],
+    "out": [
+     "(O)335"
+    ],
+    "minutes": 120,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)384"
+    ],
+    "out": [
+     "(O)336"
+    ],
+    "minutes": 300,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)386"
+    ],
+    "out": [
+     "(O)337"
+    ],
+    "minutes": 480,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)80"
+    ],
+    "out": [
+     "(O)338"
+    ],
+    "minutes": 90,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)82"
+    ],
+    "out": [
+     "(O)338"
+    ],
+    "minutes": 90,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)458"
+    ],
+    "out": [
+     "(O)277"
+    ],
+    "minutes": 10,
+    "days": -1
+   },
+   {
+    "in": [
+     "(O)909"
+    ],
+    "out": [
+     "(O)910"
+    ],
+    "minutes": 560,
+    "days": -1
+   }
+  ],
+  "Anvil": [
+   {
+    "in": [
+     null
+    ],
+    "out": [
+     null
+    ],
+    "minutes": null,
+    "days": -1
+   }
+  ],
+  "Fish Smoker": [
+   {
+    "in": [
+     [
+      "category_fish"
+     ]
+    ],
+    "out": [
+     "FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY"
+    ],
+    "minutes": 50,
+    "days": -1
+   }
+  ],
+  "Deluxe Worm Bin": [
+   {
+    "in": [
+     null
+    ],
+    "out": [
+     "(O)DeluxeBait"
+    ],
+    "minutes": -1,
+    "days": 1
+   }
+  ]
+ }
+}

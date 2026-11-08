@@ -1,0 +1,23 @@
+[human] baseline: median not done in 3 years, p90 not done in 3 years
+  random 25/80: best median Y2 spring 1, p90 Y2 summer 10 (68s)
+  random 50/80: best median Y2 spring 1, p90 Y2 summer 10 (138s)
+  random 75/80: best median Y2 spring 1, p90 Y2 summer 10 (209s)
+  local: vault_first=False -> median Y1 winter 22, p90 Y2 summer 10
+  local: reserve=500 -> median Y1 winter 21, p90 Y2 summer 10
+  local: max_tiles=40 -> median Y1 winter 15, p90 Y2 summer 10
+  local: sprinkler_goal=40 -> median Y1 winter 13, p90 Y2 summer 10
+  local: chickens=6 -> median Y1 winter 10, p90 Y2 summer 10
+  local: crab_pots=1 -> median Y1 winter 8, p90 Y2 summer 10
+  local: vault_first=True -> median Y1 winter 22, p90 Y2 fall 6
+  local: money_fall=Pumpkin -> median Y1 winter 21, p90 Y2 fall 6
+  local: kitchen=True -> median Y1 winter 15, p90 Y2 summer 10
+  local: energy_reserve=150 -> median Y1 winter 14, p90 Y2 summer 10
+  local: reserve=1000 -> median Y1 winter 12, p90 Y2 summer 10
+  local: money_fall=Corn -> median Y1 winter 10, p90 Y2 summer 10
+  local: mine_days=2 -> median Y1 winter 9, p90 Y2 summer 10
+  local: mine_threshold=5 -> median Y1 winter 8, p90 Y2 summer 10
+
+[human] BEST on 1000 fresh seeds: median Y1 winter 14 (day 97), p90 Y2 summer 10
+[human] BASELINE same seeds:      median not done in 3 years (day 486), p90 not done in 3 years
+best knobs: {"vault_first": false, "reserve": 500, "max_tiles": 40, "sprinkler_goal": 40, "money_spring": "Parsnip", "money_summer": "Melon", "money_fall": "Corn", "fert": 1, "fert_money": false, "melon_q": 30, "pumpkin_q": 20, "corn_q": 12, "mine_days": 1, "mine_goal": 40, "mine_threshold": 99, "chickens": 6, "crab_pots": 1, "pig": true, "kitchen": true, "cave": "bats", "order": "C-BC-A-DC-B-P", "energy_reserve": 50, "max_targets": 3}
+total 766s

@@ -1,0 +1,21 @@
+# runtime state (created by install.sh / stardew-cc)
+env/
+logs/
+media/frames/
+media/video/
+media/debug/
+stats/*.csv
+stats/*.json
+stats/*.jsonl
+agent/STOP
+agent/HALT
+agent/DONE
+agent/PAUSE
+__pycache__/
+bin/
+obj/
+# game code and data: never commit (copyright)
+sim/decomp/
+sim/decomp_gamedata/
+sim/data/game/
+sim/data/maps/

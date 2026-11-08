@@ -1,0 +1,991 @@
+{
+ "Snail": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Chub": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Fiddlehead Fern": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Oak Resin": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Apple": {
+  "seasons": [
+   "fall"
+  ],
+  "growth": 28,
+  "source": "wiki"
+ },
+ "Spice Berry": {
+  "seasons": [
+   "summer"
+  ],
+  "growth": null,
+  "source": "bundle text"
+ },
+ "Sandfish": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Parsnip": {
+  "seasons": [
+   "spring"
+  ],
+  "growth": 4,
+  "source": "wiki"
+ },
+ "Pufferfish": {
+  "seasons": [
+   "summer"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Rabbit's Foot": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "unknown (any season assumed)"
+ },
+ "Grape": {
+  "seasons": [
+   "summer"
+  ],
+  "growth": 7,
+  "source": "wiki"
+ },
+ "Large Egg": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "unknown (any season assumed)"
+ },
+ "Wheat": {
+  "seasons": [
+   "summer",
+   "fall"
+  ],
+  "growth": 4,
+  "source": "wiki"
+ },
+ "Cactus Fruit": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": 12,
+  "source": "wiki"
+ },
+ "Bream": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Tomato": {
+  "seasons": [
+   "summer"
+  ],
+  "growth": 11,
+  "source": "wiki"
+ },
+ "Melon": {
+  "seasons": [
+   "summer"
+  ],
+  "growth": 12,
+  "source": "wiki"
+ },
+ "Sea Urchin": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Bat Wing": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "unknown (any season assumed)"
+ },
+ "Crystal Fruit": {
+  "seasons": [
+   "winter"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Solar Essence": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "unknown (any season assumed)"
+ },
+ "Copper Bar": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "unknown (any season assumed)"
+ },
+ "Pine Tar": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Catfish": {
+  "seasons": [
+   "spring",
+   "fall"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Common Mushroom": {
+  "seasons": [
+   "spring",
+   "fall"
+  ],
+  "growth": null,
+  "source": "bundle text"
+ },
+ "Large Milk": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "unknown (any season assumed)"
+ },
+ "Blueberry": {
+  "seasons": [
+   "summer"
+  ],
+  "growth": 13,
+  "source": "wiki"
+ },
+ "Red Mushroom": {
+  "seasons": [
+   "summer"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Pomegranate": {
+  "seasons": [
+   "fall"
+  ],
+  "growth": 28,
+  "source": "wiki"
+ },
+ "Corn": {
+  "seasons": [
+   "summer",
+   "fall"
+  ],
+  "growth": 14,
+  "source": "wiki"
+ },
+ "Iron Bar": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "unknown (any season assumed)"
+ },
+ "Pumpkin": {
+  "seasons": [
+   "fall"
+  ],
+  "growth": 13,
+  "source": "wiki"
+ },
+ "Morel": {
+  "seasons": [
+   "spring"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Honey": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Crocus": {
+  "seasons": [
+   "winter"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Cloth": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "unknown (any season assumed)"
+ },
+ "Goat Cheese": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "unknown (any season assumed)"
+ },
+ "Sunflower": {
+  "seasons": [
+   "summer",
+   "fall"
+  ],
+  "growth": 8,
+  "source": "wiki"
+ },
+ "Sturgeon": {
+  "seasons": [
+   "summer",
+   "winter"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Slime": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "unknown (any season assumed)"
+ },
+ "Cockle": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Wine": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "unknown (any season assumed)"
+ },
+ "Jelly": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "unknown (any season assumed)"
+ },
+ "Fire Quartz": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "unknown (any season assumed)"
+ },
+ "Maki Roll": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "unknown (any season assumed)"
+ },
+ "Coconut": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Lobster": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Poppy": {
+  "seasons": [
+   "summer"
+  ],
+  "growth": 7,
+  "source": "wiki"
+ },
+ "Shrimp": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Duck Egg": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "unknown (any season assumed)"
+ },
+ "Ghostfish": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Oyster": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Quartz": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "bundle text"
+ },
+ "Eggplant": {
+  "seasons": [
+   "fall"
+  ],
+  "growth": 5,
+  "source": "wiki"
+ },
+ "Crab": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Orange": {
+  "seasons": [
+   "summer"
+  ],
+  "growth": 28,
+  "source": "wiki"
+ },
+ "Blackberry": {
+  "seasons": [
+   "fall"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Fried Egg": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "unknown (any season assumed)"
+ },
+ "Duck Feather": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "unknown (any season assumed)"
+ },
+ "Frozen Geode": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "unknown (any season assumed)"
+ },
+ "Hot Pepper": {
+  "seasons": [
+   "summer"
+  ],
+  "growth": 5,
+  "source": "wiki"
+ },
+ "Wool": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "unknown (any season assumed)"
+ },
+ "Snow Yam": {
+  "seasons": [
+   "winter"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Cave Carrot": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Red Cabbage": {
+  "seasons": [
+   "summer"
+  ],
+  "growth": 9,
+  "source": "wiki"
+ },
+ "L. Goat Milk": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "unknown (any season assumed)"
+ },
+ "Red Snapper": {
+  "seasons": [
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Peach": {
+  "seasons": [
+   "summer"
+  ],
+  "growth": 28,
+  "source": "wiki"
+ },
+ "Apricot": {
+  "seasons": [
+   "spring"
+  ],
+  "growth": 28,
+  "source": "wiki"
+ },
+ "Wood": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "unknown (any season assumed)"
+ },
+ "Cheese": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "unknown (any season assumed)"
+ },
+ "Sunfish": {
+  "seasons": [
+   "spring",
+   "summer"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Nautilus Shell": {
+  "seasons": [
+   "winter"
+  ],
+  "growth": null,
+  "source": "bundle text"
+ },
+ "Sweet Pea": {
+  "seasons": [
+   "summer"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Purple Mushroom": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Yam": {
+  "seasons": [
+   "fall"
+  ],
+  "growth": 10,
+  "source": "wiki"
+ },
+ "Shad": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Void Essence": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "unknown (any season assumed)"
+ },
+ "Walleye": {
+  "seasons": [
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Tiger Trout": {
+  "seasons": [
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Aquamarine": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "unknown (any season assumed)"
+ },
+ "Crayfish": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Frozen Tear": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "unknown (any season assumed)"
+ },
+ "Tilapia": {
+  "seasons": [
+   "summer",
+   "fall"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Truffle Oil": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "unknown (any season assumed)"
+ },
+ "Wild Plum": {
+  "seasons": [
+   "fall"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Woodskip": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Hay": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Truffle": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Hazelnut": {
+  "seasons": [
+   "fall"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Gold Bar": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "unknown (any season assumed)"
+ },
+ "Tuna": {
+  "seasons": [
+   "summer",
+   "winter"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Periwinkle": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Winter Root": {
+  "seasons": [
+   "winter"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Cherry": {
+  "seasons": [
+   "spring"
+  ],
+  "growth": 28,
+  "source": "wiki"
+ },
+ "Eel": {
+  "seasons": [
+   "spring",
+   "fall"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Earth Crystal": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "unknown (any season assumed)"
+ },
+ "Maple Syrup": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "wiki"
+ },
+ "Hardwood": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "unknown (any season assumed)"
+ },
+ "Largemouth Bass": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "bundle text"
+ },
+ "Daffodil": {
+  "seasons": [
+   "spring"
+  ],
+  "growth": null,
+  "source": "bundle text"
+ },
+ "Bullhead": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "bundle text"
+ },
+ "Clam": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "unknown (any season assumed)"
+ },
+ "Carp": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall"
+  ],
+  "growth": null,
+  "source": "bundle text"
+ },
+ "Green Bean": {
+  "seasons": [
+   "spring"
+  ],
+  "growth": null,
+  "source": "bundle text"
+ },
+ "Cauliflower": {
+  "seasons": [
+   "spring"
+  ],
+  "growth": null,
+  "source": "bundle text"
+ },
+ "Leek": {
+  "seasons": [
+   "spring"
+  ],
+  "growth": null,
+  "source": "bundle text"
+ },
+ "Wild Horseradish": {
+  "seasons": [
+   "spring"
+  ],
+  "growth": null,
+  "source": "bundle text"
+ },
+ "Mussel": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "unknown (any season assumed)"
+ },
+ "Sardine": {
+  "seasons": [
+   "spring",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "bundle text"
+ },
+ "Dandelion": {
+  "seasons": [
+   "spring"
+  ],
+  "growth": null,
+  "source": "bundle text"
+ },
+ "Potato": {
+  "seasons": [
+   "spring"
+  ],
+  "growth": null,
+  "source": "bundle text"
+ },
+ "Stone": {
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "growth": null,
+  "source": "unknown (any season assumed)"
+ }
+}

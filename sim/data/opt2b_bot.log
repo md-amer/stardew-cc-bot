@@ -1,0 +1,42 @@
+[bot] baseline: median Y2 winter 16, p90 not done in 3 years
+  random 25/80: best median Y2 winter 16, p90 not done in 3 years (72s)
+  random 50/80: best median Y2 winter 16, p90 not done in 3 years (154s)
+  random 75/80: best median Y2 winter 16, p90 not done in 3 years (242s)
+  local: reserve=200 -> median Y2 winter 15, p90 not done in 3 years
+  local: sprinkler_goal=80 -> median Y2 fall 23, p90 not done in 3 years
+  local: fert=0 -> median Y2 fall 22, p90 not done in 3 years
+  local: melon_q=45 -> median Y2 fall 18, p90 not done in 3 years
+  local: mine_days=3 -> median Y2 fall 15, p90 not done in 3 years
+  local: pig=True -> median Y2 fall 17, p90 Y3 summer 6
+  local: kitchen=True -> median Y2 fall 15, p90 Y3 spring 1
+  local: order=C-BC-DC-A-B-P -> median Y2 fall 14, p90 Y3 spring 1
+  local: energy_reserve=50 -> median Y2 fall 10, p90 Y3 spring 1
+  local: max_tiles=120 -> median Y2 fall 6, p90 Y3 spring 1
+  local: sprinkler_goal=40 -> median Y2 fall 8, p90 Y2 winter 5
+  local: money_summer=Melon -> median Y2 fall 4, p90 Y2 winter 3
+  local: pumpkin_q=10 -> median Y2 fall 1, p90 Y2 winter 6
+  local: chickens=6 -> median Y2 fall 1, p90 Y2 fall 26
+  local: order=C-B-BC-DC-A-P -> median Y2 fall 1, p90 Y2 fall 21
+  local: money_summer=Blueberry -> median Y2 fall 1, p90 Y2 fall 14
+  local: mine_days=2 -> median Y2 summer 27, p90 Y2 fall 15
+  local: mine_threshold=99 -> median Y2 summer 27, p90 Y2 fall 8
+  local: crab_pots=5 -> median Y2 summer 26, p90 Y2 fall 8
+  local: order=C-BC-DC-B-A-P -> median Y2 summer 22, p90 Y2 fall 11
+  local: order=C-BC-DC-A-B-P -> median Y2 summer 20, p90 Y2 fall 8
+  local: kitchen=False -> median Y2 summer 13, p90 Y2 fall 22
+  local: order=C-BC-A-DC-B-P -> median Y2 summer 15, p90 Y2 fall 11
+  local: vault_first=False -> median Y2 winter 8, p90 Y3 summer 20
+  local: order=A-C-B-BC-DC-P -> median Y2 winter 8, p90 Y3 summer 15
+  local: energy_reserve=50 -> median Y2 fall 24, p90 Y3 fall 15
+  local: pig=True -> median Y2 fall 27, p90 Y3 summer 18
+  local: sprinkler_goal=80 -> median Y2 fall 27, p90 Y3 spring 14
+  local: money_summer=Blueberry -> median Y2 fall 20, p90 Y3 spring 1
+  local: pumpkin_q=20 -> median Y2 fall 17, p90 Y3 spring 1
+  local: chickens=4 -> median Y2 fall 16, p90 Y3 spring 1
+  local: sprinkler_goal=40 -> median Y2 fall 14, p90 Y3 spring 1
+  local: max_targets=3 -> median Y2 fall 6, p90 Y3 spring 1
+
+[bot] BEST on 1000 fresh seeds: median Y2 fall 1 (day 168), p90 Y2 winter 20
+[bot] BASELINE same seeds:      median Y2 winter 13 (day 208), p90 not done in 3 years
+best knobs: {"vault_first": true, "reserve": 200, "max_tiles": 120, "sprinkler_goal": 40, "money_spring": "Potato", "money_summer": "Blueberry", "money_fall": "Pumpkin", "fert": 0, "fert_money": false, "melon_q": 45, "pumpkin_q": 10, "corn_q": 12, "mine_days": 2, "mine_goal": 80, "mine_threshold": 99, "chickens": 6, "crab_pots": 5, "pig": true, "kitchen": false, "cave": "bats", "order": "C-BC-A-DC-B-P", "energy_reserve": 50, "max_targets": 2}
+total 1697s

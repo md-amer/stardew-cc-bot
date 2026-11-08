@@ -1,0 +1,1498 @@
+{
+"Chub": [
+{
+"loc": "Mountain",
+"area": null,
+"season": "spring",
+"weather": "sun",
+"p": 0.27,
+"hour": 2100
+},
+{
+"loc": "Mountain",
+"area": null,
+"season": "spring",
+"weather": "rain",
+"p": 0.27,
+"hour": 2100
+},
+{
+"loc": "Mountain",
+"area": null,
+"season": "summer",
+"weather": "sun",
+"p": 0.275,
+"hour": 2500
+},
+{
+"loc": "Mountain",
+"area": null,
+"season": "summer",
+"weather": "rain",
+"p": 0.275,
+"hour": 2500
+},
+{
+"loc": "Mountain",
+"area": null,
+"season": "fall",
+"weather": "sun",
+"p": 0.27,
+"hour": 2100
+},
+{
+"loc": "Mountain",
+"area": null,
+"season": "fall",
+"weather": "rain",
+"p": 0.225,
+"hour": 700
+},
+{
+"loc": "Mountain",
+"area": null,
+"season": "winter",
+"weather": "sun",
+"p": 0.231,
+"hour": 2100
+},
+{
+"loc": "Mountain",
+"area": null,
+"season": "winter",
+"weather": "rain",
+"p": 0.203,
+"hour": 2000
+},
+{
+"loc": "Forest",
+"area": "River",
+"season": "spring",
+"weather": "sun",
+"p": 0.33,
+"hour": 2200
+},
+{
+"loc": "Forest",
+"area": "River",
+"season": "spring",
+"weather": "rain",
+"p": 0.316,
+"hour": 700
+},
+{
+"loc": "Forest",
+"area": "River",
+"season": "summer",
+"weather": "sun",
+"p": 0.269,
+"hour": 2100
+},
+{
+"loc": "Forest",
+"area": "River",
+"season": "summer",
+"weather": "rain",
+"p": 0.312,
+"hour": 800
+},
+{
+"loc": "Forest",
+"area": "River",
+"season": "fall",
+"weather": "sun",
+"p": 0.33,
+"hour": 2000
+},
+{
+"loc": "Forest",
+"area": "River",
+"season": "fall",
+"weather": "rain",
+"p": 0.248,
+"hour": 700
+},
+{
+"loc": "Forest",
+"area": "River",
+"season": "winter",
+"weather": "sun",
+"p": 0.212,
+"hour": 1600
+},
+{
+"loc": "Forest",
+"area": "River",
+"season": "winter",
+"weather": "rain",
+"p": 0.183,
+"hour": 900
+},
+{
+"loc": "Backwoods",
+"area": null,
+"season": "spring",
+"weather": "sun",
+"p": 0.287,
+"hour": 1900
+},
+{
+"loc": "Backwoods",
+"area": null,
+"season": "spring",
+"weather": "rain",
+"p": 0.287,
+"hour": 1900
+},
+{
+"loc": "Backwoods",
+"area": null,
+"season": "summer",
+"weather": "sun",
+"p": 0.273,
+"hour": 2100
+},
+{
+"loc": "Backwoods",
+"area": null,
+"season": "summer",
+"weather": "rain",
+"p": 0.273,
+"hour": 2100
+},
+{
+"loc": "Backwoods",
+"area": null,
+"season": "fall",
+"weather": "sun",
+"p": 0.286,
+"hour": 2100
+},
+{
+"loc": "Backwoods",
+"area": null,
+"season": "fall",
+"weather": "rain",
+"p": 0.236,
+"hour": 2000
+},
+{
+"loc": "Backwoods",
+"area": null,
+"season": "winter",
+"weather": "sun",
+"p": 0.239,
+"hour": 2200
+},
+{
+"loc": "Backwoods",
+"area": null,
+"season": "winter",
+"weather": "rain",
+"p": 0.206,
+"hour": 2100
+}
+],
+"Largemouth Bass": [
+{
+"loc": "Mountain",
+"area": null,
+"season": "spring",
+"weather": "sun",
+"p": 0.212,
+"hour": 600
+},
+{
+"loc": "Mountain",
+"area": null,
+"season": "spring",
+"weather": "rain",
+"p": 0.212,
+"hour": 600
+},
+{
+"loc": "Mountain",
+"area": null,
+"season": "summer",
+"weather": "sun",
+"p": 0.157,
+"hour": 1300
+},
+{
+"loc": "Mountain",
+"area": null,
+"season": "summer",
+"weather": "rain",
+"p": 0.182,
+"hour": 1000
+},
+{
+"loc": "Mountain",
+"area": null,
+"season": "fall",
+"weather": "sun",
+"p": 0.212,
+"hour": 600
+},
+{
+"loc": "Mountain",
+"area": null,
+"season": "fall",
+"weather": "rain",
+"p": 0.212,
+"hour": 600
+},
+{
+"loc": "Mountain",
+"area": null,
+"season": "winter",
+"weather": "sun",
+"p": 0.165,
+"hour": 700
+},
+{
+"loc": "Mountain",
+"area": null,
+"season": "winter",
+"weather": "rain",
+"p": 0.165,
+"hour": 700
+},
+{
+"loc": "Backwoods",
+"area": null,
+"season": "spring",
+"weather": "sun",
+"p": 0.21,
+"hour": 1400
+},
+{
+"loc": "Backwoods",
+"area": null,
+"season": "spring",
+"weather": "rain",
+"p": 0.21,
+"hour": 1400
+},
+{
+"loc": "Backwoods",
+"area": null,
+"season": "summer",
+"weather": "sun",
+"p": 0.166,
+"hour": 1400
+},
+{
+"loc": "Backwoods",
+"area": null,
+"season": "summer",
+"weather": "rain",
+"p": 0.184,
+"hour": 1300
+},
+{
+"loc": "Backwoods",
+"area": null,
+"season": "fall",
+"weather": "sun",
+"p": 0.21,
+"hour": 1600
+},
+{
+"loc": "Backwoods",
+"area": null,
+"season": "fall",
+"weather": "rain",
+"p": 0.205,
+"hour": 600
+},
+{
+"loc": "Backwoods",
+"area": null,
+"season": "winter",
+"weather": "sun",
+"p": 0.171,
+"hour": 1000
+},
+{
+"loc": "Backwoods",
+"area": null,
+"season": "winter",
+"weather": "rain",
+"p": 0.171,
+"hour": 1000
+}
+],
+"Carp": [
+{
+"loc": "Mountain",
+"area": null,
+"season": "spring",
+"weather": "sun",
+"p": 0.259,
+"hour": 2000
+},
+{
+"loc": "Mountain",
+"area": null,
+"season": "spring",
+"weather": "rain",
+"p": 0.259,
+"hour": 2000
+},
+{
+"loc": "Mountain",
+"area": null,
+"season": "summer",
+"weather": "sun",
+"p": 0.261,
+"hour": 2200
+},
+{
+"loc": "Mountain",
+"area": null,
+"season": "summer",
+"weather": "rain",
+"p": 0.261,
+"hour": 2200
+},
+{
+"loc": "Mountain",
+"area": null,
+"season": "fall",
+"weather": "sun",
+"p": 0.259,
+"hour": 2000
+},
+{
+"loc": "Mountain",
+"area": null,
+"season": "fall",
+"weather": "rain",
+"p": 0.228,
+"hour": 2000
+},
+{
+"loc": "Woods",
+"area": null,
+"season": "spring",
+"weather": "sun",
+"p": 0.468,
+"hour": 700
+},
+{
+"loc": "Woods",
+"area": null,
+"season": "spring",
+"weather": "rain",
+"p": 0.427,
+"hour": 2500
+},
+{
+"loc": "Woods",
+"area": null,
+"season": "summer",
+"weather": "sun",
+"p": 0.468,
+"hour": 700
+},
+{
+"loc": "Woods",
+"area": null,
+"season": "summer",
+"weather": "rain",
+"p": 0.427,
+"hour": 2500
+},
+{
+"loc": "Woods",
+"area": null,
+"season": "fall",
+"weather": "sun",
+"p": 0.468,
+"hour": 700
+},
+{
+"loc": "Woods",
+"area": null,
+"season": "fall",
+"weather": "rain",
+"p": 0.427,
+"hour": 2500
+},
+{
+"loc": "Woods",
+"area": null,
+"season": "winter",
+"weather": "sun",
+"p": 0.468,
+"hour": 700
+},
+{
+"loc": "Woods",
+"area": null,
+"season": "winter",
+"weather": "rain",
+"p": 0.427,
+"hour": 2500
+},
+{
+"loc": "Backwoods",
+"area": null,
+"season": "spring",
+"weather": "sun",
+"p": 0.279,
+"hour": 2400
+},
+{
+"loc": "Backwoods",
+"area": null,
+"season": "spring",
+"weather": "rain",
+"p": 0.279,
+"hour": 2400
+},
+{
+"loc": "Backwoods",
+"area": null,
+"season": "summer",
+"weather": "sun",
+"p": 0.274,
+"hour": 2300
+},
+{
+"loc": "Backwoods",
+"area": null,
+"season": "summer",
+"weather": "rain",
+"p": 0.274,
+"hour": 2300
+},
+{
+"loc": "Backwoods",
+"area": null,
+"season": "fall",
+"weather": "sun",
+"p": 0.287,
+"hour": 2300
+},
+{
+"loc": "Backwoods",
+"area": null,
+"season": "fall",
+"weather": "rain",
+"p": 0.234,
+"hour": 2100
+}
+],
+"Bullhead": [
+{
+"loc": "Mountain",
+"area": null,
+"season": "spring",
+"weather": "sun",
+"p": 0.215,
+"hour": 1900
+},
+{
+"loc": "Mountain",
+"area": null,
+"season": "spring",
+"weather": "rain",
+"p": 0.215,
+"hour": 1900
+},
+{
+"loc": "Mountain",
+"area": null,
+"season": "summer",
+"weather": "sun",
+"p": 0.215,
+"hour": 2300
+},
+{
+"loc": "Mountain",
+"area": null,
+"season": "summer",
+"weather": "rain",
+"p": 0.215,
+"hour": 2300
+},
+{
+"loc": "Mountain",
+"area": null,
+"season": "fall",
+"weather": "sun",
+"p": 0.215,
+"hour": 1900
+},
+{
+"loc": "Mountain",
+"area": null,
+"season": "fall",
+"weather": "rain",
+"p": 0.176,
+"hour": 2100
+},
+{
+"loc": "Mountain",
+"area": null,
+"season": "winter",
+"weather": "sun",
+"p": 0.184,
+"hour": 1900
+},
+{
+"loc": "Mountain",
+"area": null,
+"season": "winter",
+"weather": "rain",
+"p": 0.163,
+"hour": 1900
+},
+{
+"loc": "Backwoods",
+"area": null,
+"season": "spring",
+"weather": "sun",
+"p": 0.218,
+"hour": 2200
+},
+{
+"loc": "Backwoods",
+"area": null,
+"season": "spring",
+"weather": "rain",
+"p": 0.218,
+"hour": 2200
+},
+{
+"loc": "Backwoods",
+"area": null,
+"season": "summer",
+"weather": "sun",
+"p": 0.216,
+"hour": 2100
+},
+{
+"loc": "Backwoods",
+"area": null,
+"season": "summer",
+"weather": "rain",
+"p": 0.216,
+"hour": 2100
+},
+{
+"loc": "Backwoods",
+"area": null,
+"season": "fall",
+"weather": "sun",
+"p": 0.213,
+"hour": 2200
+},
+{
+"loc": "Backwoods",
+"area": null,
+"season": "fall",
+"weather": "rain",
+"p": 0.196,
+"hour": 800
+},
+{
+"loc": "Backwoods",
+"area": null,
+"season": "winter",
+"weather": "sun",
+"p": 0.187,
+"hour": 1900
+},
+{
+"loc": "Backwoods",
+"area": null,
+"season": "winter",
+"weather": "rain",
+"p": 0.162,
+"hour": 2500
+}
+],
+"Sturgeon": [
+{
+"loc": "Mountain",
+"area": null,
+"season": "summer",
+"weather": "sun",
+"p": 0.138,
+"hour": 1300
+},
+{
+"loc": "Mountain",
+"area": null,
+"season": "summer",
+"weather": "rain",
+"p": 0.165,
+"hour": 900
+},
+{
+"loc": "Mountain",
+"area": null,
+"season": "winter",
+"weather": "sun",
+"p": 0.135,
+"hour": 1500
+},
+{
+"loc": "Mountain",
+"area": null,
+"season": "winter",
+"weather": "rain",
+"p": 0.134,
+"hour": 1000
+},
+{
+"loc": "Backwoods",
+"area": null,
+"season": "summer",
+"weather": "sun",
+"p": 0.14,
+"hour": 1700
+},
+{
+"loc": "Backwoods",
+"area": null,
+"season": "summer",
+"weather": "rain",
+"p": 0.157,
+"hour": 1600
+},
+{
+"loc": "Backwoods",
+"area": null,
+"season": "winter",
+"weather": "sun",
+"p": 0.149,
+"hour": 1400
+},
+{
+"loc": "Backwoods",
+"area": null,
+"season": "winter",
+"weather": "rain",
+"p": 0.139,
+"hour": 600
+}
+],
+"Walleye": [
+{
+"loc": "Mountain",
+"area": null,
+"season": "fall",
+"weather": "rain",
+"p": 0.184,
+"hour": 1900
+},
+{
+"loc": "Mountain",
+"area": null,
+"season": "winter",
+"weather": "rain",
+"p": 0.175,
+"hour": 2000
+},
+{
+"loc": "Forest",
+"area": "River",
+"season": "fall",
+"weather": "rain",
+"p": 0.189,
+"hour": 2400
+},
+{
+"loc": "Forest",
+"area": "River",
+"season": "winter",
+"weather": "rain",
+"p": 0.145,
+"hour": 2400
+},
+{
+"loc": "Forest",
+"area": "Lake",
+"season": "fall",
+"weather": "rain",
+"p": 0.296,
+"hour": 1500
+},
+{
+"loc": "Forest",
+"area": "Lake",
+"season": "winter",
+"weather": "rain",
+"p": 0.239,
+"hour": 1200
+},
+{
+"loc": "Town",
+"area": "River",
+"season": "fall",
+"weather": "rain",
+"p": 0.195,
+"hour": 2400
+},
+{
+"loc": "Town",
+"area": "River",
+"season": "winter",
+"weather": "rain",
+"p": 0.169,
+"hour": 2500
+},
+{
+"loc": "Backwoods",
+"area": null,
+"season": "fall",
+"weather": "rain",
+"p": 0.207,
+"hour": 1900
+},
+{
+"loc": "Backwoods",
+"area": null,
+"season": "winter",
+"weather": "rain",
+"p": 0.18,
+"hour": 1900
+}
+],
+"Sunfish": [
+{
+"loc": "Forest",
+"area": "River",
+"season": "spring",
+"weather": "sun",
+"p": 0.326,
+"hour": 1400
+},
+{
+"loc": "Forest",
+"area": "River",
+"season": "summer",
+"weather": "sun",
+"p": 0.21,
+"hour": 1200
+},
+{
+"loc": "Town",
+"area": "River",
+"season": "spring",
+"weather": "sun",
+"p": 0.316,
+"hour": 1000
+},
+{
+"loc": "Town",
+"area": "River",
+"season": "summer",
+"weather": "sun",
+"p": 0.281,
+"hour": 700
+}
+],
+"Bream": [
+{
+"loc": "Forest",
+"area": "River",
+"season": "spring",
+"weather": "sun",
+"p": 0.312,
+"hour": 1900
+},
+{
+"loc": "Forest",
+"area": "River",
+"season": "spring",
+"weather": "rain",
+"p": 0.253,
+"hour": 2400
+},
+{
+"loc": "Forest",
+"area": "River",
+"season": "summer",
+"weather": "sun",
+"p": 0.261,
+"hour": 2100
+},
+{
+"loc": "Forest",
+"area": "River",
+"season": "summer",
+"weather": "rain",
+"p": 0.229,
+"hour": 1900
+},
+{
+"loc": "Forest",
+"area": "River",
+"season": "fall",
+"weather": "sun",
+"p": 0.321,
+"hour": 2100
+},
+{
+"loc": "Forest",
+"area": "River",
+"season": "fall",
+"weather": "rain",
+"p": 0.209,
+"hour": 2400
+},
+{
+"loc": "Forest",
+"area": "River",
+"season": "winter",
+"weather": "sun",
+"p": 0.192,
+"hour": 2500
+},
+{
+"loc": "Forest",
+"area": "River",
+"season": "winter",
+"weather": "rain",
+"p": 0.16,
+"hour": 2400
+},
+{
+"loc": "Town",
+"area": "River",
+"season": "spring",
+"weather": "sun",
+"p": 0.331,
+"hour": 2300
+},
+{
+"loc": "Town",
+"area": "River",
+"season": "spring",
+"weather": "rain",
+"p": 0.262,
+"hour": 2400
+},
+{
+"loc": "Town",
+"area": "River",
+"season": "summer",
+"weather": "sun",
+"p": 0.338,
+"hour": 2400
+},
+{
+"loc": "Town",
+"area": "River",
+"season": "summer",
+"weather": "rain",
+"p": 0.276,
+"hour": 1900
+},
+{
+"loc": "Town",
+"area": "River",
+"season": "fall",
+"weather": "sun",
+"p": 0.326,
+"hour": 2000
+},
+{
+"loc": "Town",
+"area": "River",
+"season": "fall",
+"weather": "rain",
+"p": 0.221,
+"hour": 2400
+},
+{
+"loc": "Town",
+"area": "River",
+"season": "winter",
+"weather": "sun",
+"p": 0.229,
+"hour": 2100
+},
+{
+"loc": "Town",
+"area": "River",
+"season": "winter",
+"weather": "rain",
+"p": 0.18,
+"hour": 2400
+}
+],
+"Catfish": [
+{
+"loc": "Forest",
+"area": "River",
+"season": "spring",
+"weather": "rain",
+"p": 0.3,
+"hour": 600
+},
+{
+"loc": "Forest",
+"area": "River",
+"season": "fall",
+"weather": "rain",
+"p": 0.208,
+"hour": 600
+},
+{
+"loc": "Forest",
+"area": "River",
+"season": "winter",
+"weather": "rain",
+"p": 0.172,
+"hour": 1100
+},
+{
+"loc": "Town",
+"area": "River",
+"season": "spring",
+"weather": "rain",
+"p": 0.29,
+"hour": 700
+},
+{
+"loc": "Town",
+"area": "River",
+"season": "fall",
+"weather": "rain",
+"p": 0.212,
+"hour": 600
+},
+{
+"loc": "Town",
+"area": "River",
+"season": "winter",
+"weather": "rain",
+"p": 0.177,
+"hour": 1000
+},
+{
+"loc": "Woods",
+"area": null,
+"season": "spring",
+"weather": "rain",
+"p": 0.316,
+"hour": 800
+},
+{
+"loc": "Woods",
+"area": null,
+"season": "summer",
+"weather": "rain",
+"p": 0.316,
+"hour": 800
+},
+{
+"loc": "Woods",
+"area": null,
+"season": "fall",
+"weather": "rain",
+"p": 0.316,
+"hour": 800
+},
+{
+"loc": "Woods",
+"area": null,
+"season": "winter",
+"weather": "rain",
+"p": 0.316,
+"hour": 800
+}
+],
+"Shad": [
+{
+"loc": "Forest",
+"area": "River",
+"season": "spring",
+"weather": "rain",
+"p": 0.228,
+"hour": 1100
+},
+{
+"loc": "Forest",
+"area": "River",
+"season": "summer",
+"weather": "rain",
+"p": 0.202,
+"hour": 1600
+},
+{
+"loc": "Forest",
+"area": "River",
+"season": "fall",
+"weather": "rain",
+"p": 0.18,
+"hour": 2400
+},
+{
+"loc": "Town",
+"area": "River",
+"season": "spring",
+"weather": "rain",
+"p": 0.235,
+"hour": 1200
+},
+{
+"loc": "Town",
+"area": "River",
+"season": "summer",
+"weather": "rain",
+"p": 0.268,
+"hour": 1100
+},
+{
+"loc": "Town",
+"area": "River",
+"season": "fall",
+"weather": "rain",
+"p": 0.165,
+"hour": 900
+}
+],
+"Tiger Trout": [
+{
+"loc": "Forest",
+"area": "River",
+"season": "fall",
+"weather": "sun",
+"p": 0.138,
+"hour": 1400
+},
+{
+"loc": "Forest",
+"area": "River",
+"season": "fall",
+"weather": "rain",
+"p": 0.112,
+"hour": 700
+},
+{
+"loc": "Forest",
+"area": "River",
+"season": "winter",
+"weather": "sun",
+"p": 0.105,
+"hour": 1600
+},
+{
+"loc": "Forest",
+"area": "River",
+"season": "winter",
+"weather": "rain",
+"p": 0.092,
+"hour": 1000
+},
+{
+"loc": "Town",
+"area": "River",
+"season": "fall",
+"weather": "sun",
+"p": 0.145,
+"hour": 1000
+},
+{
+"loc": "Town",
+"area": "River",
+"season": "fall",
+"weather": "rain",
+"p": 0.125,
+"hour": 600
+},
+{
+"loc": "Town",
+"area": "River",
+"season": "winter",
+"weather": "sun",
+"p": 0.128,
+"hour": 1100
+},
+{
+"loc": "Town",
+"area": "River",
+"season": "winter",
+"weather": "rain",
+"p": 0.102,
+"hour": 1100
+}
+],
+"Sardine": [
+{
+"loc": "Beach",
+"area": "Default",
+"season": "spring",
+"weather": "sun",
+"p": 0.376,
+"hour": 1700
+},
+{
+"loc": "Beach",
+"area": "Default",
+"season": "spring",
+"weather": "rain",
+"p": 0.347,
+"hour": 1100
+},
+{
+"loc": "Beach",
+"area": "Default",
+"season": "fall",
+"weather": "sun",
+"p": 0.425,
+"hour": 1700
+},
+{
+"loc": "Beach",
+"area": "Default",
+"season": "fall",
+"weather": "rain",
+"p": 0.34,
+"hour": 1400
+},
+{
+"loc": "Beach",
+"area": "Default",
+"season": "winter",
+"weather": "sun",
+"p": 0.303,
+"hour": 1700
+},
+{
+"loc": "Beach",
+"area": "Default",
+"season": "winter",
+"weather": "rain",
+"p": 0.248,
+"hour": 1200
+}
+],
+"Eel": [
+{
+"loc": "Beach",
+"area": "Default",
+"season": "spring",
+"weather": "rain",
+"p": 0.288,
+"hour": 2200
+},
+{
+"loc": "Beach",
+"area": "Default",
+"season": "fall",
+"weather": "rain",
+"p": 0.34,
+"hour": 2400
+}
+],
+"Tilapia": [
+{
+"loc": "Beach",
+"area": "Default",
+"season": "summer",
+"weather": "sun",
+"p": 0.229,
+"hour": 1100
+},
+{
+"loc": "Beach",
+"area": "Default",
+"season": "summer",
+"weather": "rain",
+"p": 0.202,
+"hour": 1300
+},
+{
+"loc": "Beach",
+"area": "Default",
+"season": "fall",
+"weather": "sun",
+"p": 0.205,
+"hour": 1100
+},
+{
+"loc": "Beach",
+"area": "Default",
+"season": "fall",
+"weather": "rain",
+"p": 0.166,
+"hour": 1100
+}
+],
+"Tuna": [
+{
+"loc": "Beach",
+"area": "Default",
+"season": "summer",
+"weather": "sun",
+"p": 0.13,
+"hour": 1600
+},
+{
+"loc": "Beach",
+"area": "Default",
+"season": "summer",
+"weather": "rain",
+"p": 0.111,
+"hour": 1700
+},
+{
+"loc": "Beach",
+"area": "Default",
+"season": "winter",
+"weather": "sun",
+"p": 0.08,
+"hour": 1200
+},
+{
+"loc": "Beach",
+"area": "Default",
+"season": "winter",
+"weather": "rain",
+"p": 0.069,
+"hour": 1400
+}
+],
+"Pufferfish": [
+{
+"loc": "Beach",
+"area": "Default",
+"season": "summer",
+"weather": "sun",
+"p": 0.194,
+"hour": 1500
+}
+],
+"Red Snapper": [
+{
+"loc": "Beach",
+"area": "Default",
+"season": "summer",
+"weather": "rain",
+"p": 0.275,
+"hour": 1500
+},
+{
+"loc": "Beach",
+"area": "Default",
+"season": "fall",
+"weather": "rain",
+"p": 0.223,
+"hour": 1400
+},
+{
+"loc": "Beach",
+"area": "Default",
+"season": "winter",
+"weather": "rain",
+"p": 0.17,
+"hour": 1100
+}
+],
+"Woodskip": [
+{
+"loc": "Woods",
+"area": null,
+"season": "spring",
+"weather": "sun",
+"p": 0.209,
+"hour": 1400
+},
+{
+"loc": "Woods",
+"area": null,
+"season": "spring",
+"weather": "rain",
+"p": 0.193,
+"hour": 2400
+},
+{
+"loc": "Woods",
+"area": null,
+"season": "summer",
+"weather": "sun",
+"p": 0.209,
+"hour": 1400
+},
+{
+"loc": "Woods",
+"area": null,
+"season": "summer",
+"weather": "rain",
+"p": 0.193,
+"hour": 2400
+},
+{
+"loc": "Woods",
+"area": null,
+"season": "fall",
+"weather": "sun",
+"p": 0.209,
+"hour": 1400
+},
+{
+"loc": "Woods",
+"area": null,
+"season": "fall",
+"weather": "rain",
+"p": 0.193,
+"hour": 2400
+},
+{
+"loc": "Woods",
+"area": null,
+"season": "winter",
+"weather": "sun",
+"p": 0.209,
+"hour": 1400
+},
+{
+"loc": "Woods",
+"area": null,
+"season": "winter",
+"weather": "rain",
+"p": 0.193,
+"hour": 2400
+}
+],
+"Sandfish": [
+{
+"loc": "Desert",
+"area": "TopPond",
+"season": "spring",
+"weather": "sun",
+"p": 0.528,
+"hour": 900
+},
+{
+"loc": "Desert",
+"area": "TopPond",
+"season": "spring",
+"weather": "rain",
+"p": 0.528,
+"hour": 900
+},
+{
+"loc": "Desert",
+"area": "TopPond",
+"season": "summer",
+"weather": "sun",
+"p": 0.528,
+"hour": 900
+},
+{
+"loc": "Desert",
+"area": "TopPond",
+"season": "summer",
+"weather": "rain",
+"p": 0.528,
+"hour": 900
+},
+{
+"loc": "Desert",
+"area": "TopPond",
+"season": "fall",
+"weather": "sun",
+"p": 0.528,
+"hour": 900
+},
+{
+"loc": "Desert",
+"area": "TopPond",
+"season": "fall",
+"weather": "rain",
+"p": 0.528,
+"hour": 900
+},
+{
+"loc": "Desert",
+"area": "TopPond",
+"season": "winter",
+"weather": "sun",
+"p": 0.528,
+"hour": 900
+},
+{
+"loc": "Desert",
+"area": "TopPond",
+"season": "winter",
+"weather": "rain",
+"p": 0.528,
+"hour": 900
+}
+],
+"Ghostfish": [
+{
+"loc": "UndergroundMine",
+"area": null,
+"season": "spring",
+"weather": "sun",
+"p": 0.264,
+"hour": 1000
+},
+{
+"loc": "UndergroundMine",
+"area": null,
+"season": "spring",
+"weather": "rain",
+"p": 0.264,
+"hour": 1000
+},
+{
+"loc": "UndergroundMine",
+"area": null,
+"season": "summer",
+"weather": "sun",
+"p": 0.264,
+"hour": 1000
+},
+{
+"loc": "UndergroundMine",
+"area": null,
+"season": "summer",
+"weather": "rain",
+"p": 0.264,
+"hour": 1000
+},
+{
+"loc": "UndergroundMine",
+"area": null,
+"season": "fall",
+"weather": "sun",
+"p": 0.264,
+"hour": 1000
+},
+{
+"loc": "UndergroundMine",
+"area": null,
+"season": "fall",
+"weather": "rain",
+"p": 0.264,
+"hour": 1000
+},
+{
+"loc": "UndergroundMine",
+"area": null,
+"season": "winter",
+"weather": "sun",
+"p": 0.264,
+"hour": 1000
+},
+{
+"loc": "UndergroundMine",
+"area": null,
+"season": "winter",
+"weather": "rain",
+"p": 0.264,
+"hour": 1000
+}
+]
+}

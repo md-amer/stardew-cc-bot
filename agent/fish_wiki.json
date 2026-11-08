@@ -1,0 +1,263 @@
+{
+ "Sunfish": {
+  "locations": [
+   "River"
+  ],
+  "windows": [
+   [
+    6,
+    19
+   ]
+  ],
+  "seasons": [
+   "spring",
+   "summer"
+  ],
+  "weather": "sun"
+ },
+ "Catfish": {
+  "locations": [
+   "River",
+   "Secret Woods",
+   "Witch's Swamp"
+  ],
+  "windows": [
+   [
+    6,
+    24
+   ]
+  ],
+  "seasons": [
+   "spring",
+   "fall"
+  ],
+  "weather": "rain"
+ },
+ "Shad": {
+  "locations": [
+   "River"
+  ],
+  "windows": [
+   [
+    9,
+    26
+   ]
+  ],
+  "seasons": [
+   "spring",
+   "summer",
+   "fall"
+  ],
+  "weather": "rain"
+ },
+ "Tiger Trout": {
+  "locations": [
+   "River"
+  ],
+  "windows": [
+   [
+    6,
+    19
+   ]
+  ],
+  "seasons": [
+   "fall",
+   "winter"
+  ],
+  "weather": "any"
+ },
+ "Sturgeon": {
+  "locations": [
+   "Mountain Lake"
+  ],
+  "windows": [
+   [
+    6,
+    19
+   ]
+  ],
+  "seasons": [
+   "summer",
+   "winter"
+  ],
+  "weather": "any"
+ },
+ "Tuna": {
+  "locations": [
+   "Ocean",
+   "Ginger Island"
+  ],
+  "windows": [
+   [
+    6,
+    19
+   ]
+  ],
+  "seasons": [
+   "summer",
+   "winter"
+  ],
+  "weather": "any"
+ },
+ "Red Snapper": {
+  "locations": [
+   "Ocean",
+   "Beach Farm"
+  ],
+  "windows": [
+   [
+    6,
+    19
+   ]
+  ],
+  "seasons": [
+   "summer",
+   "fall",
+   "winter",
+   "with rain totem"
+  ],
+  "weather": "rain"
+ },
+ "Tilapia": {
+  "locations": [
+   "Ocean",
+   "Ginger Island"
+  ],
+  "windows": [
+   [
+    6,
+    14
+   ]
+  ],
+  "seasons": [
+   "summer",
+   "fall"
+  ],
+  "weather": "any"
+ },
+ "Walleye": {
+  "locations": [
+   "River",
+   "Mountain Lake",
+   "Forest Pond",
+   "Forest Farm Pond"
+  ],
+  "windows": [
+   [
+    12,
+    26
+   ]
+  ],
+  "seasons": [
+   "fall",
+   "winter",
+   "with rain totem"
+  ],
+  "weather": "rain"
+ },
+ "Bream": {
+  "locations": [
+   "River"
+  ],
+  "windows": [
+   [
+    18,
+    26
+   ]
+  ],
+  "seasons": [
+   "all"
+  ],
+  "weather": "any"
+ },
+ "Eel": {
+  "locations": [
+   "Ocean"
+  ],
+  "windows": [
+   [
+    16,
+    26
+   ]
+  ],
+  "seasons": [
+   "spring",
+   "fall"
+  ],
+  "weather": "rain"
+ },
+ "Pufferfish": {
+  "locations": [
+   "Ocean",
+   "Ginger Island"
+  ],
+  "windows": [
+   [
+    12,
+    16
+   ]
+  ],
+  "seasons": [
+   "summer"
+  ],
+  "weather": "sun"
+ },
+ "Ghostfish": {
+  "locations": [
+   "Floors 20 and 60 of The Mines"
+  ],
+  "windows": [
+   [
+    6,
+    26
+   ]
+  ],
+  "seasons": [
+   "all"
+  ],
+  "weather": "any"
+ },
+ "Sandfish": {
+  "locations": [
+   "The Desert"
+  ],
+  "windows": [
+   [
+    6,
+    20
+   ]
+  ],
+  "seasons": [
+   "all"
+  ],
+  "weather": "any"
+ },
+ "Woodskip": {
+  "locations": [
+   "Secret Woods",
+   "Forest Farm"
+  ],
+  "windows": [
+   [
+    6,
+    26
+   ]
+  ],
+  "seasons": [
+   "all"
+  ],
+  "weather": "any"
+ },
+ "Lobster": null,
+ "Crayfish": null,
+ "Crab": null,
+ "Cockle": null,
+ "Shrimp": null,
+ "Snail": null,
+ "Periwinkle": null,
+ "Oyster": null,
+ "Largemouth Bass": null,
+ "Carp": null,
+ "Bullhead": null,
+ "Sardine": null
+}
