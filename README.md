@@ -22,6 +22,55 @@ through it, and fixed it after each in-game day. The run below is the result of 
 For comparison: the speedrun record is Spring 15, Year 1 (a team using seed control), and a solo chosen-seed run
 finished in the first summer. Good human players with a normal random seed report late Fall Year 1 to Spring Year 2.
 
+### Proof
+
+The last item (Rabbit's Foot, from its own rabbit) going into the Enchanter's Bundle on Summer 21, Year 3,
+from the bot's own timelapse recording (slowed down):
+
+![Last bundle completed](media/last_bundle.gif)
+
+**[Highlights video (61 s)](media/highlights.mp4)**: clips from the daily timelapses, from day 1 to the last bundle.
+Each day was recorded at 1 frame per 2 seconds of real time while the bot played at fast-forward.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="media/cc_progress_dark.png">
+  <img alt="Community Center items donated over the run: 0 to 110 between Spring Y1 and Summer 21 Y3" src="media/cc_progress_light.png">
+</picture>
+
+Fast through Year 1 (79 of 110 items by Winter 1, 87 by the end of Year 1), then a long tail: the last items needed Year 2 crops,
+a pig for the Truffle, coop upgrades and lucky Traveling Cart stock.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="media/money_dark.png">
+  <img alt="Money on hand by in-game day, peaks before each building purchase" src="media/money_light.png">
+</picture>
+
+Each drop is a building or animal purchase (Coop, Barn, upgrades, the 16,000g pig) or a Vault payment.
+After the Community Center was done the bot kept playing about 70 days by mistake (the auto-stop bug, now fixed),
+which is the climb at the end.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="media/time_dark.png">
+  <img alt="In-game hours by activity: fishing is the largest classified activity" src="media/time_light.png">
+</picture>
+
+Game time between log lines, grouped by what the bot was doing. "Unclassified" is time after log lines that
+don't match an activity keyword (mostly walking between tasks and waiting), so treat the split as rough.
+
+| | |
+|---|---|
+| ![First visit](media/cc_first_visit_y1_spring5.png) | ![First bundle](media/first_bundle_y1_spring7.png) |
+| Spring 5, Year 1: first visit to the Community Center | Spring 7, Year 1: first donation |
+
+Raw data:
+- [results/logs/](results/logs/): full bot logs of a few days, including the last-bundle day (`y3_summer_21.log`, donation at 13:20).
+- [results/cc_final_state.json](results/cc_final_state.json): bundle state read from the game at the end.
+  (The four Vault bundles show `complete: false` there because buying them only sets the first flag in the game's data;
+  the game still counts them as done. See `agent/cc_progress.py`.)
+- [results/day_summary.csv](results/day_summary.csv), [results/RUNLOG.csv](results/RUNLOG.csv): per-day stats.
+- [Release v0.1](https://github.com/md-amer/stardew-cc-bot/releases/tag/v0.1): all 309 day logs and the final save file
+  (Winter 4, Year 3), which you can load in your own game.
+
 ## How it works
 
 ```

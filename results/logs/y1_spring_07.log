@@ -1,0 +1,83 @@
+[spring 7 600] === DAY START Y1 spring 7 weather sun money 720 ===
+[spring 7 600] mail: LetterViewerMenu 
+[spring 7 600] mail: LetterViewerMenu 
+[spring 7 600] mail: DialogueBox You don't have any mail.
+[spring 7 610] harvested 3
+[spring 7 630] refilled can at (70, 28)
+[spring 7 630] watered 6
+[spring 7 640] shipped Potato x2
+[spring 7 640] shipped Daffodil x3
+[spring 7 640] shipped Parsnip x14
+[spring 7 640] withdrew for bundles: ['Wood', 'Stone', 'Clam', 'Slime', 'Leek']
+[spring 7 650] no free path to warp (44,22); clearing a path
+[spring 7 740] donate Crafts Room failed: TimeoutError('wait timed out')
+[spring 7 740] STEP FAILED donate: RuntimeError('menu will not close') @ File "agent/town.py", line 91, in close_menu
+Traceback (most recent call last):
+  File "agent/donate.py", line 76, in donate_all
+    total += donate_room(room)
+             ~~~~~~~~~~~^^^^^^
+  File "agent/donate.py", line 30, in donate_room
+    act.walk(x, y, adjacent=True)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "agent/act.py", line 57, in walk
+    s = wait_done("walker", timeout)
+  File "agent/act.py", line 22, in wait_done
+    return sv.wait(ok, timeout=timeout, every=0.05)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "agent/sv.py", line 33, in wait
+    raise TimeoutError("wait timed out")
+TimeoutError: wait timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "agent/play_day.py", line 170, in main
+    step()
+    ~~~~^^
+  File "agent/play_day.py", line 140, in donate
+    D.donate_all()
+    ~~~~~~~~~~~~^^
+  File "agent/donate.py", line 79, in donate_all
+    town.close_menu()
+    ~~~~~~~~~~~~~~~^^
+  File "agent/town.py", line 91, in close_menu
+    raise RuntimeError("menu will not close")
+RuntimeError: menu will not close
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import play_day, act; act.run(play_day.main)
+                          ~~~~~~~^^^^^^^^^^^^^^^
+  File "agent/act.py", line 218, in run
+    return fn()
+  File "agent/play_day.py", line 173, in main
+    sv.call("stop"); act.reel_in(); town.close_menu() if sv.state().get("menu", {}) and sv.state()["menu"]["type"] != "GameMenu" else None
+                                    ~~~~~~~~~~~~~~~^^
+  File "agent/town.py", line 91, in close_menu
+    raise RuntimeError("menu will not close")
+RuntimeError: menu will not close
+[spring 7 1010] no free path to warp (32,24); clearing a path
+[spring 7 1040] no free path to warp (9,22); clearing a path
+[spring 7 1050] withdrew for bundles: []
+[spring 7 1100] no free path to warp (44,22); clearing a path
+[spring 7 1250] donated 0 items
+[spring 7 1300] no free path to warp (32,24); clearing a path
+[spring 7 1330] bought Cauliflower Seeds: spent 0g
+[spring 7 1330] no free path to warp (6,30); clearing a path
+[spring 7 1420] no free path to warp (9,22); clearing a path
+[spring 7 1420] planted cauliflower: 0
+[spring 7 1430] no free path to warp (49,10); clearing a path
+[spring 7 1510] no free path to warp (54,4); clearing a path
+[spring 7 1550] mine: descended -> level 2
+[spring 7 1550] mine: descended -> level 3
+[spring 7 1550] mine: descended -> level 4
+[spring 7 1730] mine: descended -> level 5
+[spring 7 1750] mine: descended -> level 6
+[spring 7 1820] mine: descended -> level 7
+[spring 7 1940] mine: tired -> level 7
+[spring 7 1950] mined 6 levels
+[spring 7 1950] no free path to warp (18,14); clearing a path
+[spring 7 2050] going to sleep
+[spring 8 600] NEW DAY Y1 spring 8 money 1460 weather rain

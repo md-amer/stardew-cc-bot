@@ -1,0 +1,56 @@
+[summer 22 600] === DAY START Y3 summer 22 weather storm money 24098 ===
+[summer 22 600] CC progress: 30/30 bundles, 110/110 slots
+[summer 22 600] CC COMPLETE: stopping the loop after today
+[summer 22 600] SEASON DEADLINES: urgent []; next season []
+[summer 22 600] mail: LetterViewerMenu 
+[summer 22 610] mail: DialogueBox You don't have any mail.
+[summer 22 610] withdrew for bundles: ['Hay']
+[summer 22 630] foraged Large Egg
+[summer 22 630] foraged Large Egg
+[summer 22 640] foraged Large Egg
+[summer 22 640] foraged Large Egg
+[summer 22 650] foraged Egg
+[summer 22 650] foraged Large Egg
+[summer 22 650] foraged Duck Egg
+[summer 22 650] could not pick Large Egg at (20, 5) from (19, 4) (backpack full?)
+[summer 22 700] foraged Large Egg
+[summer 22 700] care: pet TannyHen1 at (18, 8) from (18, 7)
+[summer 22 710] care: pet Ru at (17, 4) from (16, 4)
+[summer 22 710] care: pet RinelloHen2 at (18, 4) from (19, 4)
+[summer 22 720] care: pet Trortu at (5, 8) from (8, 8)
+[summer 22 730] care: pet Trortu at (3, 7) from (5, 8)
+[summer 22 730] care: pet Trortu at (3, 4) from (4, 4)
+[summer 22 740] care: pet TrusersHen3 at (21, 7) from (17, 7)
+[summer 22 740] care: pet TrusersHen3 at (21, 8) from (21, 7)
+[summer 22 750] foraged Large Egg
+[summer 22 750] Coop care: hay 0, petted 5, collected 9; animals [('TannyHen1', 'White Chicken', 776, True), ('Ru', 'Duck', 579, True), ('RinelloHen2', 'White Chicken', 769, True), ('Trortu', 'Rabbit', 294, True), ('NilliHen4', 'Brown Chicken', 836, True), ('TrusersHen3', 'Brown Chicken', 858, True)]
+[summer 22 810] care: pet Grurta at (11, 8) from (11, 9)
+[summer 22 810] care: pet Prallo at (13, 11) from (13, 9)
+[summer 22 820] care: pet Prallo at (13, 11) from (13, 10)
+[summer 22 830] barn: milk pail used on 2
+[summer 22 830] Barn care: hay 0, petted 2, collected 0; animals [('Grurta', 'Pig', 893, True), ('Prallo', 'Brown Cow', 1000, True)]
+[summer 22 830] sell surplus: ['Garden Pot', 'Sap']
+[summer 22 830] long walk (47, 20)->(76, 14) (35 tiles) by _open:204 < store_materials:250 < chest_sync_and_ship:82 < main:872
+[summer 22 850] keeping food: Egg x2 (+20 HP each)
+[summer 22 850] keeping food: Egg x2 (+15 HP each)
+[summer 22 850] keeping food: Egg x4 (+15 HP each)
+[summer 22 850] shipped Milk x1
+[summer 22 900] shipped Large Egg x2
+[summer 22 900] shipped Duck Egg x1
+[summer 22 900] shipped Large Egg x1
+[summer 22 900] shipped Large Egg x2
+[summer 22 900] shipped Large Egg x2
+[summer 22 900] donate: nothing donatable in open rooms
+[summer 22 900] animals: coop={'tile': [53, 11], 'ordered': 91} chickens=4 barn={'tile': [46, 14], 'ordered': 96} cows=1
+[summer 22 920] withdrew for bundles: ['Coal']
+[summer 22 930] withdrew for bundles: []
+[summer 22 930] sell surplus: ['Garden Pot', 'Sap']
+[summer 22 930] withdrew for bundles: ['Garden Pot', 'Sap']
+[summer 22 940] shipped Sap x8
+[summer 22 940] sell surplus: shipped ['Sap']
+[summer 22 940] keeping food: Egg x2 (+20 HP each)
+[summer 22 940] keeping food: Egg x2 (+15 HP each)
+[summer 22 940] keeping food: Egg x4 (+15 HP each)
+[summer 22 940] AUDIT: bed at 940 (day unused)
+[summer 22 950] going to sleep
+[summer 23 600] NEW DAY Y3 summer 23 money 25282 weather sun

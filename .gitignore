@@ -1,6 +1,6 @@
 # runtime state (created by install.sh / stardew-cc)
-env/
-logs/
+/env/
+/logs/
 media/frames/
 media/video/
 media/debug/

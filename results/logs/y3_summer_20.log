@@ -1,0 +1,70 @@
+[summer 20 600] === DAY START Y3 summer 20 weather sun money 19094 ===
+[summer 20 600] CC progress: 29/30 bundles, 109/110 slots
+[summer 20 600] SEASON DEADLINES: urgent []; next season []
+[summer 20 600] mail: DialogueBox You don't have any mail.
+[summer 20 830] morning care failed: TimeoutError('wait timed out')
+[summer 20 830] sell surplus: ['Garden Pot']
+[summer 20 1200] === DAY START Y3 summer 20 weather sun money 19094 ===
+[summer 20 1200] CC progress: 29/30 bundles, 109/110 slots
+[summer 20 1200] SEASON DEADLINES: urgent []; next season []
+[summer 20 1230] mail: DialogueBox You don't have any mail.
+[summer 20 1240] withdrew for bundles: ['Hay']
+[summer 20 1320] coop care: door (54, 13) did not open
+[summer 20 1340] care: pet Grurta at (11, 7) from (11, 9)
+[summer 20 1340] care: pet Grurta at (9, 7) from (11, 8)
+[summer 20 1340] care: pet Grurta at (7, 7) from (7, 8)
+[summer 20 1350] care: pet Prallo at (18, 9) from (18, 8)
+[summer 20 1400] barn: milk pail used on 2
+[summer 20 1440] petted 5 animals outdoors
+[summer 20 1440] Barn care: hay 0, petted 7, collected 0; animals [('Grurta', 'Pig', 863, True), ('Prallo', 'Brown Cow', 968, True)]
+[summer 20 1440] sell surplus: ['Garden Pot']
+[summer 20 1510] keeping food: Egg x1 (+20 HP each)
+[summer 20 1510] keeping food: Egg x1 (+15 HP each)
+[summer 20 1510] keeping food: Egg x2 (+15 HP each)
+[summer 20 1510] donate: nothing donatable in open rooms
+[summer 20 1510] animals: coop={'tile': [53, 11], 'ordered': 91} chickens=4 barn={'tile': [46, 14], 'ordered': 96} cows=1
+[summer 20 1510] withdrew for bundles: ['Hay']
+[summer 20 1520] foraged Void Egg
+[summer 20 1530] foraged Duck Feather
+[summer 20 1530] foraged Large Egg
+[summer 20 1530] foraged Egg
+[summer 20 1540] foraged Large Egg
+[summer 20 1540] foraged Egg
+[summer 20 1540] foraged Wool
+[summer 20 1540] foraged Large Egg
+[summer 20 1550] foraged Duck Egg
+[summer 20 1550] foraged Rabbit's Foot
+[summer 20 1550] foraged Egg
+[summer 20 1600] foraged Egg
+[summer 20 1600] foraged Duck Egg
+[summer 20 1600] foraged Large Egg
+[summer 20 1610] foraged Large Egg
+[summer 20 1610] could not pick Large Egg at (11, 5) from (10, 5) (backpack full?)
+[summer 20 1610] could not pick Duck Egg at (12, 6) from (10, 5) (backpack full?)
+[summer 20 1620] could not pick Large Egg at (11, 8) from (11, 6) (backpack full?)
+[summer 20 1620] could not pick Large Egg at (12, 7) from (11, 7) (backpack full?)
+[summer 20 1620] could not pick Large Egg at (11, 8) from (11, 7) (backpack full?)
+[summer 20 1620] could not pick Large Egg at (12, 7) from (11, 7) (backpack full?)
+[summer 20 1630] could not pick Large Egg at (11, 5) from (11, 7) (backpack full?)
+[summer 20 1630] could not pick Duck Egg at (12, 6) from (11, 6) (backpack full?)
+[summer 20 1630] foraged Egg
+[summer 20 1630] foraged Large Egg
+[summer 20 1640] foraged Large Egg
+[summer 20 1640] foraged Egg
+[summer 20 1640] could not pick Large Egg at (16, 5) from (15, 4) (backpack full?)
+[summer 20 1650] Coop care: hay 0, petted 0, collected 19; animals []
+[summer 20 1750] withdrew for bundles: []
+[summer 20 1800] withdrew for bundles: []
+[summer 20 1800] sell surplus: ['Garden Pot', 'Maple Seed', 'Moss', 'Sap']
+[summer 20 1810] keeping food: Egg x2 (+20 HP each)
+[summer 20 1810] keeping food: Egg x2 (+15 HP each)
+[summer 20 1810] keeping food: Egg x3 (+15 HP each)
+[summer 20 1810] shipped Large Egg x4
+[summer 20 1810] shipped Duck Egg x1
+[summer 20 1820] shipped Duck Egg x1
+[summer 20 1820] shipped Large Egg x3
+[summer 20 1820] shipped Void Egg x1
+[summer 20 1820] shipped Maple Seed x3
+[summer 20 1820] AUDIT: CC slots unchanged for 7 days (109)
+[summer 20 1830] going to sleep
+[summer 21 600] NEW DAY Y3 summer 21 money 20332 weather sun

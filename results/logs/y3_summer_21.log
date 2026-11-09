@@ -1,0 +1,92 @@
+[summer 21 600] === DAY START Y3 summer 21 weather sun money 20332 ===
+[summer 21 600] CC progress: 29/30 bundles, 109/110 slots
+[summer 21 600] SEASON DEADLINES: urgent []; next season []
+[summer 21 600] mail: DialogueBox You don't have any mail.
+[summer 21 610] withdrew for bundles: ['Hay']
+[summer 21 630] foraged Large Egg
+[summer 21 630] foraged Large Egg
+[summer 21 630] foraged Large Egg
+[summer 21 640] foraged Wool
+[summer 21 640] foraged Duck Egg
+[summer 21 650] foraged Large Egg
+[summer 21 650] foraged Large Egg
+[summer 21 650] foraged Large Egg
+[summer 21 700] foraged Large Egg
+[summer 21 700] foraged Large Egg
+[summer 21 700] foraged Large Egg
+[summer 21 710] foraged Duck Egg
+[summer 21 710] foraged Large Egg
+[summer 21 710] foraged Large Egg
+[summer 21 720] foraged Large Egg
+[summer 21 720] foraged Egg
+[summer 21 730] foraged Large Egg
+[summer 21 730] could not pick Large Egg at (16, 8) from (16, 6) (backpack full?)
+[summer 21 740] foraged Large Egg
+[summer 21 740] foraged Large Egg
+[summer 21 740] foraged Large Egg
+[summer 21 750] could not pick Egg at (18, 5) from (17, 6) (backpack full?)
+[summer 21 750] foraged Large Egg
+[summer 21 750] foraged Large Egg
+[summer 21 750] foraged Large Egg
+[summer 21 800] could not pick Large Egg at (20, 5) from (19, 6) (backpack full?)
+[summer 21 800] could not pick Large Egg at (20, 4) from (20, 6) (backpack full?)
+[summer 21 800] foraged Large Egg
+[summer 21 810] foraged Large Egg
+[summer 21 810] foraged Large Egg
+[summer 21 810] could not pick Large Egg at (16, 8) from (19, 8) (backpack full?)
+[summer 21 820] could not pick Egg at (18, 5) from (17, 8) (backpack full?)
+[summer 21 820] could not pick Large Egg at (20, 5) from (18, 6) (backpack full?)
+[summer 21 830] could not pick Large Egg at (20, 4) from (20, 6) (backpack full?)
+[summer 21 920] petted 4 animals outdoors
+[summer 21 920] Coop care: hay 0, petted 4, collected 26; animals []
+[summer 21 940] care: pet Grurta at (8, 5) from (8, 9)
+[summer 21 940] care: pet Grurta at (8, 7) from (8, 7)
+[summer 21 950] care: pet Prallo at (21, 12) from (21, 9)
+[summer 21 950] care: pet Prallo at (21, 12) from (22, 12)
+[summer 21 1010] barn: milk pail used on 2
+[summer 21 1030] petted 1 animals outdoors
+[summer 21 1030] Barn care: hay 0, petted 3, collected 0; animals [('Grurta', 'Pig', 878, True), ('Prallo', 'Brown Cow', 983, True)]
+[summer 21 1030] SANITY: step morning_care took 270 game minutes
+[summer 21 1030] sell surplus: ['Duck Feather', 'Garden Pot', 'Maple Seed', 'Moss', 'Sap', 'Wool']
+[summer 21 1040] keeping food: Egg x2 (+20 HP each)
+[summer 21 1040] keeping food: Egg x2 (+15 HP each)
+[summer 21 1040] keeping food: Egg x4 (+15 HP each)
+[summer 21 1050] shipped Large Egg x4
+[summer 21 1050] shipped Large Egg x9
+[summer 21 1050] shipped Duck Egg x2
+[summer 21 1050] shipped Large Egg x4
+[summer 21 1100] shipped Large Egg x5
+[summer 21 1100] long walk (71, 13)->(40, 64) (82 tiles) by _take_warp:319 < goto:397 < open_cart:21 < visit:60
+[summer 21 1130] long walk (68, 0)->(27, 12) (53 tiles) by open_cart:31 < visit:60 < cart_visit:740 < main:872
+[summer 21 1140] cart stock: [('Wood Fence', 1000, 1), ('Milk', 500, 1), ('Pine Tar', 800, 1), ('Shrimp', 900, 1), ('Tuna', 500, 1), ('Life Elixir', 800, 1), ('Spaghetti', 1000, 1), ('Eggplant Parmesan', 1000, 1), ('Jazz Seeds', 800, 1), ('Treasure Hunter', 1000, 1), ("'Kitemaster '95'", 750, 1), ('Rare Seed', 1000, 1)]
+[summer 21 1150] donate plan: ["Rabbit's Foot"] -> ['Bulletin Board']
+[summer 21 1150] long walk (27, 12)->(67, 0) (52 tiles) by _take_warp:319 < goto:397 < withdraw_bundle_items:12 < wrap:481
+[summer 21 1200] long walk (40, 60)->(74, 14) (80 tiles) by withdraw_bundle_items:13 < wrap:481 < donate_all:167 < donate:429
+[summer 21 1230] withdrew for bundles: ["Rabbit's Foot"]
+[summer 21 1240] long walk (14, 23)->(44, 22) (31 tiles) by _take_warp:319 < goto:397 < donate_all:170 < donate:429
+[summer 21 1250] long walk (0, 54)->(52, 19) (87 tiles) by _take_warp:302 < goto:397 < donate_all:170 < donate:429
+[summer 21 1320] donated Rabbit's Foot x1 -> Enchanter's
+[summer 21 1320] donated 1 items; complete bundles now 26
+[summer 21 1320] animals: coop={'tile': [53, 11], 'ordered': 91} chickens=4 barn={'tile': [46, 14], 'ordered': 96} cows=1
+[summer 21 1320] no free path to warp (32,24); clearing a path (screenshot media/debug/nopath_*.png)
+[summer 21 1400] truffles failed: TimeoutError('wait timed out')
+[summer 21 1400] long walk (52, 21)->(0, 53) (84 tiles) by _take_warp:319 < goto:397 < smelt:64 < evening:768
+[summer 21 1450] withdrew for bundles: ['Coal']
+[summer 21 1450] withdrew for bundles: []
+[summer 21 1450] sell surplus: ['Duck Feather', 'Garden Pot', 'Maple Seed', 'Moss', "Rabbit's Foot", 'Sap', 'Wool']
+[summer 21 1500] withdrew for bundles: ['Maple Seed', 'Moss', 'Sap', 'Duck Feather', 'Garden Pot']
+[summer 21 1500] shipped Duck Feather x1
+[summer 21 1510] shipped Sap x1
+[summer 21 1510] shipped Moss x2
+[summer 21 1510] shipped Maple Seed x2
+[summer 21 1510] sell surplus: shipped ['Duck Feather', 'Maple Seed', 'Moss', 'Sap']
+[summer 21 1520] withdrew for bundles: ['Wool']
+[summer 21 1520] shipped Wool x2
+[summer 21 1520] sell surplus: shipped ['Wool']
+[summer 21 1530] withdrew for bundles: []
+[summer 21 1530] keeping food: Egg x2 (+20 HP each)
+[summer 21 1530] keeping food: Egg x2 (+15 HP each)
+[summer 21 1530] keeping food: Egg x4 (+15 HP each)
+[summer 21 1530] AUDIT: bed at 1530 (day unused)
+[summer 21 1550] going to sleep
+[summer 22 600] NEW DAY Y3 summer 22 money 24098 weather storm
