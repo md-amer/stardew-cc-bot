@@ -8,6 +8,7 @@ cd "$ROOT"
 if [ "$1" = "stop" ]; then touch agent/STOP; touch agent/HALT; echo "Stopping after the current day."; exit 0; fi
 rm -f agent/HALT agent/STOP agent/PAUSE agent/ANIMALS agent/MINIMAL
 mkdir -p logs stats media
+[ -f env/Mods/ClaudeHands/ClaudeHands.dll ] || { echo "Mod not built yet: building."; scripts/deploy_mod.sh || exit 1; }
 SAVES="$ROOT/env/config/StardewValley/Saves"
 if ! ls -d "$SAVES"/Claude_* >/dev/null 2>&1; then
   echo "No bot save yet: creating a new farm."

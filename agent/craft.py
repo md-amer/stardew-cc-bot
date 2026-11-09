@@ -68,6 +68,25 @@ JUNK = ["Green Algae", "White Algae", "Seaweed", "River Jelly", "Sea Jelly", "Mo
         "Bone Fragment", "Femur", "House Plant", "Strange Bun", "Rubber Boots", "Lead Rod", "Cherry Bomb", "Egg", "Milk", "Fiber",
         "Crystal Floor", "Wood Floor", "Straw Floor", "Stone Floor", "Weathered Floor", "Wood Path", "Gravel Path", "Cobblestone Path"]  # Su 17 Y2: chest full (36 slots), ores stayed in the backpack
 
+def ensure_chest(xy):
+    """Fresh save: the main chest does not exist yet. Clear the tile, craft a Chest (50 Wood, known from the start)
+    and place it at xy. Returns True when a chest stands at xy."""
+    act.walk(*xy, adjacent=True)
+    if any(o["name"] == "Chest" and (o["x"], o["y"]) == tuple(xy) for o in sv.call("around", r=3)["objects"]):
+        return True
+    if not any(i["name"] == "Chest" for i in act.inv()):
+        wood = sum(i["stack"] for i in act.inv() if i["name"] == "Wood")
+        if wood < 50:
+            act.log(f"CHEST: no main chest yet and only {wood} Wood (need 50)"); return False
+        if not craft("Chest"): return False
+    import farming
+    try: farming.clear(tuple(xy))
+    except Exception as e: act.log(f"CHEST: clearing {xy} failed: {e!r}")
+    place("Chest", *xy)
+    ok = any(o["name"] == "Chest" and (o["x"], o["y"]) == tuple(xy) for o in sv.call("around", r=3)["objects"])
+    act.log(f"CHEST: placed main chest at {xy}: {ok}")
+    return ok
+
 @act.slow
 def sync_chest(chest_xy, quota, materials, keep_inv):
     """One chest visit = source of truth. For each item:
@@ -75,6 +94,8 @@ def sync_chest(chest_xy, quota, materials, keep_inv):
        - quota items: chest holds exactly min(total, quota); extra comes out to be shipped
        - keep_inv (tools, seeds): stay in the backpack
     Returns names now in the backpack that should be shipped."""
+    if not ensure_chest(chest_xy):        # no chest yet: ship sellables directly, keep materials and bundle items
+        return {i["name"] for i in act.inv() if i["name"] not in keep_inv and i["name"] not in materials and i["name"] not in quota}
     act.walk(*chest_xy, adjacent=True)
     act.use(*chest_xy, right=True)
     sv.wait(lambda s: (s.get("menu") or {}).get("type") == "ItemGrabMenu", timeout=5)

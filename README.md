@@ -116,8 +116,10 @@ What works: the full day loop, all six rooms' item sources (crops, forage, fishi
 cooking, Traveling Cart, Desert), season deadlines, money planning, auto-stop when the Community Center is complete.
 
 What does not yet work reliably:
-- A fresh save. The run above started from a save that was being fixed as it went. A test day on a
-  brand-new farm finished and slept, but several steps timed out and the first seeds were not planted.
+- A full fresh-save run to completion has not been done yet. The run above started from a save that was being
+  fixed as it went. On a brand-new farm the bot now crafts its own storage chest, buys and plants the bundle
+  seeds, forages, chops, mines and donates (first Construction items on Spring 6-8 in testing), but only the
+  first ~10 days have been tested.
 - Recovery from rare stuck states (the launcher restarts the game from the last save, up to 5 times).
 - Speed. A human finishes much earlier. The planning simulator (below) estimates the bot could reach
   a median of Year 2 Fall 1 with the best plan, versus Year 3 Summer 21 in the real run.

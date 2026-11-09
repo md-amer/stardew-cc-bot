@@ -10,6 +10,8 @@ CHEST = (74, 14)
 def withdraw_bundle_items(bring):
     """Take only the stacks this trip can donate (open rooms) out of the chest."""
     act.goto("Farm")
+    if not craft.ensure_chest(CHEST):     # fresh save: no chest yet, nothing stored to take
+        return []
     act.walk(*CHEST, adjacent=True)
     act.use(*CHEST, right=True)
     sv.wait(lambda s: (s.get("menu") or {}).get("type") == "ItemGrabMenu", timeout=5)

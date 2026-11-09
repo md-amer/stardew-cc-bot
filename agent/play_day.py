@@ -684,6 +684,8 @@ def fishing(until=2100):
             if starts: session_until = min(session_until, min(starts) * 100)
         if not place:
             act.log("fishing: every spot tried"); return
+        if sv.state()["time"] >= session_until - 30:   # Sp 8 fresh save: walked to the Beach at 21:40 for a session ending 21:30
+            act.log(f"fishing: too late for a session ending {session_until}"); return
         act.goto(place)
         # spots that produced fish this session may be reused (a fresh bank search often lands on shore)
         known = [tuple(t) for t in prog().get("fish_spots", {}).get(place, []) if tuple(t) not in tried[place] or tuple(t) in productive]
@@ -873,7 +875,7 @@ def main():
             step()
             sanity_step_time(step, t0)
         except Exception as e:
-            import traceback; act.log(f"STEP FAILED {getattr(step,'__name__','step')}: {e!r} @ {traceback.format_exc().splitlines()[-3].strip()}")
+            import traceback; act.log(f"STEP FAILED {getattr(step,'__name__','step')}: {e!r} @ {traceback.format_exc().splitlines()[-3].strip()}"); print("".join("    " + l for l in traceback.format_exc().splitlines(True)[-14:]), flush=True)
             try:
                 sv.call("stop"); act.reel_in()
                 for _ in range(80):                 # cutscenes (e.g. Special Orders, Fa 2) stop steps: click through
@@ -885,10 +887,11 @@ def main():
             except Exception as e2:
                 act.log(f"recovery after step failure failed: {e2!r}")
             # Su 3 Y2: one failed walk ended the outing at 8:40 and the farmer slept at 9:10. Retry once.
-            if step is mining_or_fishing and sv.state()["time"] < 1700:
-                act.log("retrying mining_or_fishing once")
+            # any step (fresh save, Sp 7: leaving the house at 6:00 timed out once): retry once after recovery
+            if step is not evening and sv.state()["time"] < 1700:
+                act.log(f"retrying {getattr(step,'__name__','step')} once")
                 try: step()
-                except Exception as e3: act.log(f"STEP FAILED again mining_or_fishing: {e3!r}")
+                except Exception as e3: act.log(f"STEP FAILED again {getattr(step,'__name__','step')}: {e3!r}")
     st = sv.state()
     if (st["season"], st["day"]) != day0:
         act.log("DAY CHANGED before bed (passed out?): not sleeping again")
