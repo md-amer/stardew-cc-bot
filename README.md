@@ -29,7 +29,7 @@ from the bot's own timelapse recording (slowed down):
 
 ![Last bundle completed](media/last_bundle.gif)
 
-**[Highlights video (61 s)](media/highlights.mp4)**: clips from the daily timelapses, from day 1 to the last bundle.
+**[Highlights video (62 s)](media/highlights.mp4)**: clips from the daily timelapses, from day 1 to the last bundle.
 Each day was recorded at 1 frame per 2 seconds of real time while the bot played at fast-forward.
 
 <picture>
